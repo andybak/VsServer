@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <!-- deck.gl standalone bundle -->
+    <script src="https://unpkg.com/deck.gl@^8.1.0/dist.min.js"></script>
+
+    <!-- Mapbox dependencies -->
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.4.0/mapbox-gl.js"></script>
+    <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v1.4.0/mapbox-gl.css" rel="stylesheet" />
+
+    <style type="text/css">
+      body {margin: 0; padding: 0;}
+      #container {width: 100vw; height: 100vh;}
+    </style>
+  </head>
+
+  <body>
+    <div id="container"></div>
+  </body>
+
+  <script>
+
+      const deckgl = new deck.DeckGL({
+      container: 'container',
+      // Set your Mapbox access token here
+      mapboxApiAccessToken: 'pk.eyJ1IjoiYW5keWJhayIsImEiOiJRMGFWUUhRIn0.UO_ZOU7s32wmcsdBaVZu9A',
+
+      initialViewState: {
+        longitude: {{ lng }},
+        latitude: {{ lat }},
+        zoom: 15,
+        bearing: 0,
+        pitch: 30,
+      },
+      controller: true,
+
+      layers: [
+        new deck.GeoJsonLayer({
+          id: 'molior',
+          data: {{ geojson|safe }},
+          // Styles
+          filled: true,
+          extruded: true,
+          pointRadiusMinPixels: 2,
+          pointRadiusScale: 2,
+          //getRadius: f => (11 - f.properties.scalerank),
+          getFillColor: [200, 0, 80, 180],
+          // Interactive props
+          pickable: true,
+          autoHighlight: true,
+          getElevation: f => f.properties["RelH2"],
+          onClick: info => info.object && alert(`${info.object.properties.ldrid} `)
+        }),
+
+      ]
+    });
+  </script>
+</html>

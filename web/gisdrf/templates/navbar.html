@@ -1,0 +1,26 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="{% url 'restaurants:home' %}">Nearby Restaurants</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="{% url 'restaurants:home' %}">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          API
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="{% url 'api:restaurants_list' %}" target="_blank">Restaurant List</a>
+          {% if latitude and longitude %}
+          <a class="dropdown-item" href="{% url 'api:restaurants_list' %}?lat={{latitude}}&lng={{longitude}}" target="_blank">Restaurant Near Me</a>
+          {% endif %}
+          <a class="dropdown-item" href="{% url 'api:restaurants_list' %}?lat=41.3880000&lng=2.1110000" target="_blank">Restaurant Near Me (Fake Location)</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+

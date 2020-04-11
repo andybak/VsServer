@@ -1,0 +1,6930 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.55.9 ab41fea6",
+  "osm3s": {
+    "timestamp_osm_base": "2020-02-21T18:24:02Z",
+    "timestamp_areas_base": "2020-02-21T18:14:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 792812166,
+      "lat": 38.424004,
+      "lon": -6.4201367,
+      "tags": {
+        "amenity": "food_court",
+        "source": "local knowledge;PNOA Spain"
+      }
+    },
+    {
+      "type": "node",
+      "id": 891741828,
+      "lat": 41.3882463,
+      "lon": 2.1118134,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Bar de Camins"
+      }
+    },
+    {
+      "type": "node",
+      "id": 946577306,
+      "lat": 38.5103179,
+      "lon": -0.2243731,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Pollos Asados La Vila"
+      }
+    },
+    {
+      "type": "node",
+      "id": 966310769,
+      "lat": 38.5066699,
+      "lon": -0.2303278,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Diego. Bar Restaurante"
+      }
+    },
+    {
+      "type": "node",
+      "id": 966821337,
+      "lat": 41.1158514,
+      "lon": 1.2495948,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Lizarran"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1010939426,
+      "lat": 38.5076575,
+      "lon": -0.2334398,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Pedro Marcet Lloret"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1039549780,
+      "lat": 38.5075987,
+      "lon": -0.2291303,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Cervecería Gambrinus"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1147347706,
+      "lat": 41.3888708,
+      "lon": 2.1124794,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Unity Sodexo",
+        "outdoor_seating": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1195467607,
+      "lat": 37.8449065,
+      "lon": -3.0673585,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Cafe-Bar Jardín",
+        "source": "PNOA"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1216273558,
+      "lat": 37.9855156,
+      "lon": -1.1264457,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Madre de Dios",
+        "source": "survey",
+        "source:date": "20110322"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1216273749,
+      "lat": 37.9854825,
+      "lon": -1.1266321,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Fraskito",
+        "source": "survey",
+        "source:date": "20110322"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1216755467,
+      "lat": 37.9860735,
+      "lon": -1.1265658,
+      "tags": {
+        "amenity": "food_court",
+        "name": "contracorriente",
+        "source": "survey",
+        "source:date": "20110322"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1216755507,
+      "lat": 37.9876552,
+      "lon": -1.1283087,
+      "tags": {
+        "amenity": "food_court",
+        "name": "La Taberna del Pri...",
+        "source": "survey",
+        "source:date": "20110322"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1216755617,
+      "lat": 37.986051,
+      "lon": -1.126654,
+      "tags": {
+        "amenity": "food_court",
+        "name": "el alambique",
+        "source": "survey",
+        "source:date": "20110322"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1255906593,
+      "lat": 40.533693,
+      "lon": -3.4835617,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Asador Ruyra"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1256684814,
+      "lat": 40.5331024,
+      "lon": -3.4798827,
+      "tags": {
+        "amenity": "food_court",
+        "name": "La Hospedería de Antonia",
+        "phone": "+34 918844975",
+        "website": "www.hospederiadeantonia.es"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1258766081,
+      "lat": 36.6184285,
+      "lon": -5.342185,
+      "tags": {
+        "amenity": "food_court",
+        "name": "La Fuente"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1274675035,
+      "lat": 37.9859861,
+      "lon": -1.1253145,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Tablas del escribano"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1277066619,
+      "lat": 37.9734462,
+      "lon": -1.1353066,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Bar la Campana",
+        "source": "survey",
+        "source:date": "20110507"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1277066689,
+      "lat": 37.9710581,
+      "lon": -1.1373321,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Bar Oasis",
+        "source": "survey",
+        "source:date": "20110507"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1301693363,
+      "lat": 38.3916983,
+      "lon": -0.5208998,
+      "tags": {
+        "amenity": "food_court",
+        "cuisine": "Comida para llevar, pastelería",
+        "name": "Cuina i Sucre",
+        "opening_hours": "Mo-Su 10:30-21:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1328896640,
+      "lat": 42.1384711,
+      "lon": -0.3950147,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Piscinas Municipales"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1364732942,
+      "lat": 43.2514946,
+      "lon": -5.7729622,
+      "tags": {
+        "amenity": "food_court",
+        "name": "La Bodeguina"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1369169522,
+      "lat": 36.6183106,
+      "lon": -5.3420049,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Bar Sevilla"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1410586110,
+      "lat": 40.9849639,
+      "lon": 0.8959694,
+      "tags": {
+        "amenity": "food_court"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1410586168,
+      "lat": 40.9866963,
+      "lon": 0.8948735,
+      "tags": {
+        "amenity": "food_court"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1420920616,
+      "lat": 40.9050826,
+      "lon": -3.8783678,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Cafetería JJ"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1420920618,
+      "lat": 40.9041622,
+      "lon": -3.8796372,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Café el Álamo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1430983189,
+      "lat": 42.520653,
+      "lon": 0.4659088,
+      "tags": {
+        "amenity": "food_court",
+        "internet_access": "wlan",
+        "name": "Bar de Chía"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1442057126,
+      "lat": 40.6607205,
+      "lon": -3.7628127,
+      "tags": {
+        "amenity": "food_court"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1446827244,
+      "lat": 40.6593521,
+      "lon": -3.765338,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Las Sevillanas",
+        "source": "survey",
+        "source:date": "201109"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1446827245,
+      "lat": 40.6592505,
+      "lon": -3.7653721,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Groucho",
+        "source": "survey",
+        "source:date": "201109"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1448151233,
+      "lat": 40.6591711,
+      "lon": -3.7655365,
+      "tags": {
+        "amenity": "food_court",
+        "name": "33",
+        "source": "survey",
+        "source:date": "201109"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1460916293,
+      "lat": 40.6816475,
+      "lon": -3.9728751,
+      "tags": {
+        "amenity": "food_court",
+        "internet_access": "no",
+        "name": "El Raso",
+        "smoking": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1461779666,
+      "lat": 39.9636289,
+      "lon": -0.2666046,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Telepizza"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1484729718,
+      "lat": 39.9316508,
+      "lon": -0.1048139,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Crash Bocata"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1506185155,
+      "lat": 43.2658456,
+      "lon": -1.9773065,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Elur-txori sozietatea"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1506185182,
+      "lat": 43.2649192,
+      "lon": -1.9766453,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Sozietatea"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1506296767,
+      "lat": 43.2655336,
+      "lon": -1.9747506,
+      "tags": {
+        "amenity": "food_court",
+        "name": "OA"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1511758118,
+      "lat": 37.8448835,
+      "lon": -3.0676005,
+      "tags": {
+        "amenity": "food_court"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1541999042,
+      "lat": 39.566872,
+      "lon": 3.212497,
+      "tags": {
+        "amenity": "food_court",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Mingo",
+        "opening_hours": "24/7",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1542080409,
+      "lat": 37.2562457,
+      "lon": -6.9555888,
+      "tags": {
+        "amenity": "food_court",
+        "cuisine": "regional",
+        "internet_access": "no",
+        "internet_access:fee": "no",
+        "name": "Bar Abacería del Conde",
+        "terrace": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1542694977,
+      "lat": 37.2563208,
+      "lon": -6.9557359,
+      "tags": {
+        "amenity": "food_court",
+        "cuisine": "regional",
+        "internet_access": "no",
+        "name": "Tasquilla del Acebedo",
+        "terrace": "yes",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1551140817,
+      "lat": 42.7290994,
+      "lon": -7.3479583,
+      "tags": {
+        "amenity": "food_court"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1622592779,
+      "lat": 42.0130248,
+      "lon": -4.5215367,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Trigal de Martina"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1645956508,
+      "lat": 41.6713811,
+      "lon": -3.6849966,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Mesón el Caserio"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1669222150,
+      "lat": 39.0464968,
+      "lon": -0.194052,
+      "tags": {
+        "amenity": "food_court"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1717568113,
+      "lat": 42.8522284,
+      "lon": -2.665224,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Aranbide",
+        "phone": "+34 945 065610",
+        "smoking": "no",
+        "website": "www.aranbide.es"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1744716382,
+      "lat": 40.4550459,
+      "lon": -3.4806457,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Churrería Chocolatería San José",
+        "source": "knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1764661732,
+      "lat": 41.6393769,
+      "lon": 2.0580836,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Àrea d'Esplai de les Arenes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1768076575,
+      "lat": 41.7976222,
+      "lon": 1.9549405,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Bar Centre Cívic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1792080688,
+      "lat": 41.3863503,
+      "lon": 2.188721,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Grill Les Aguiles",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1793491013,
+      "lat": 41.386379,
+      "lon": 2.1914173,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Terrari"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1798613236,
+      "lat": 41.1654276,
+      "lon": -5.8900626,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Bar-Restaurante Pasvi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1798613882,
+      "lat": 41.1107579,
+      "lon": -5.8049661,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Bar-Restaurante El Campo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1800295168,
+      "lat": 27.9578914,
+      "lon": -15.780365,
+      "tags": {
+        "amenity": "food_court"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1819059473,
+      "lat": 36.4642646,
+      "lon": -6.1984089,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Gran Vía",
+        "outdoor_seating": "yes",
+        "smoking": "outside",
+        "takeaway": "no",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1819059486,
+      "lat": 36.4649313,
+      "lon": -6.198113,
+      "tags": {
+        "amenity": "food_court",
+        "name": "El 44",
+        "outdoor_seating": "yes",
+        "smoking": "outside",
+        "takeaway": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1820904353,
+      "lat": 41.5600529,
+      "lon": 2.0938259,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Ca la Pepi",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1837115601,
+      "lat": 42.0069937,
+      "lon": -4.5339756,
+      "tags": {
+        "alt_name": "El Marrano",
+        "amenity": "food_court",
+        "name": "Trompicón"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1837718041,
+      "lat": 41.4779776,
+      "lon": 1.9177816,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Bon Lloc"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1837718045,
+      "lat": 41.4786091,
+      "lon": 1.9167347,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Bonavista"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1837718055,
+      "lat": 41.4787671,
+      "lon": 1.9168229,
+      "tags": {
+        "amenity": "food_court",
+        "name": "La Taberna"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1843215540,
+      "lat": 40.5032765,
+      "lon": -3.526997,
+      "tags": {
+        "amenity": "food_court",
+        "name": "El Mosky"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1843215545,
+      "lat": 40.503998,
+      "lon": -3.5279366,
+      "tags": {
+        "amenity": "food_court"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1854489557,
+      "lat": 40.8847112,
+      "lon": 0.8053056,
+      "tags": {
+        "amenity": "food_court"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1873444784,
+      "lat": 41.4050071,
+      "lon": 2.1750642,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Snack Bar Nevada"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1905936474,
+      "lat": 41.4772438,
+      "lon": 1.9158912,
+      "tags": {
+        "amenity": "food_court",
+        "name": "guissona"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1914320107,
+      "lat": 36.2722307,
+      "lon": -6.0923186,
+      "tags": {
+        "amenity": "food_court"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1914320108,
+      "lat": 36.2749979,
+      "lon": -6.0944942,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Casa Paco"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1921489551,
+      "lat": 37.1001746,
+      "lon": -2.1302096,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Pequenekes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1962433636,
+      "lat": 42.8106601,
+      "lon": -1.598434,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Haran",
+        "source": "photograph"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2002316585,
+      "lat": 41.6631883,
+      "lon": -4.7375538,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Maranta"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2018306023,
+      "lat": 42.9378628,
+      "lon": -3.5728055,
+      "tags": {
+        "amenity": "food_court",
+        "name": "EL Callejon"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2018306416,
+      "lat": 42.9382265,
+      "lon": -3.5741061,
+      "tags": {
+        "amenity": "food_court",
+        "name": "The Year Tavern"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2021572992,
+      "lat": 42.8201181,
+      "lon": -8.4848961,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Breixo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2023242731,
+      "lat": 43.1412108,
+      "lon": -1.5662398,
+      "tags": {
+        "amenity": "food_court",
+        "name": "La Cooperativa",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2023338397,
+      "lat": 40.1204993,
+      "lon": -5.5003056,
+      "tags": {
+        "amenity": "food_court",
+        "name": "La Cresta de Gredos"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2027644093,
+      "lat": 43.478716,
+      "lon": -8.2444409,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Nuevo Yate"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2046449136,
+      "lat": 41.5645947,
+      "lon": 2.012805,
+      "tags": {
+        "amenity": "food_court",
+        "name": "El Local",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2061291065,
+      "lat": 38.599993,
+      "lon": -0.0486459,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Döner Kebab"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2068640110,
+      "lat": 40.5410236,
+      "lon": -3.6152141,
+      "tags": {
+        "amenity": "food_court"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2071600712,
+      "lat": 43.6679897,
+      "lon": -7.593298,
+      "tags": {
+        "amenity": "food_court",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Mesón Lodeiro",
+        "smoking": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2072228043,
+      "lat": 43.3822839,
+      "lon": -3.2180274,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Heladería Regma",
+        "shop": "confectionery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2145879213,
+      "lat": 41.3890057,
+      "lon": 2.1890763,
+      "tags": {
+        "amenity": "food_court"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2154629147,
+      "lat": 40.8862141,
+      "lon": 0.7935374,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Llambrich Callau"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2154629168,
+      "lat": 40.8839428,
+      "lon": 0.8002884,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Mil Gustos",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2155840744,
+      "lat": 42.4667689,
+      "lon": -2.4476178,
+      "tags": {
+        "amenity": "food_court",
+        "internet_access": "no",
+        "name": "Drunken Duck",
+        "smoking": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2158103492,
+      "lat": 37.4284976,
+      "lon": -5.9677622,
+      "tags": {
+        "addr:street": "Calle Estrella Canopus",
+        "amenity": "food_court",
+        "name": "Strazza Vinos & Tapas"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2191551579,
+      "lat": 37.2553776,
+      "lon": -6.9476348,
+      "tags": {
+        "addr:housenumber": "15",
+        "amenity": "food_court",
+        "name": "Bonilla",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2275670905,
+      "lat": 42.899163,
+      "lon": -6.688641,
+      "tags": {
+        "amenity": "food_court",
+        "name": "A Corte del Toro"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2293764533,
+      "lat": 42.4605888,
+      "lon": -2.4502889,
+      "tags": {
+        "amenity": "food_court",
+        "internet_access": "no",
+        "name": "Jaspyr",
+        "smoking": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2294726976,
+      "lat": 41.4534917,
+      "lon": 1.7030023,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Polleria Cal Salas",
+        "phone": "+ 34 93 899 52 30"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2294726979,
+      "lat": 41.4506035,
+      "lon": 1.703196,
+      "tags": {
+        "addr:housenumber": "59-61",
+        "addr:postcode": "08776",
+        "addr:street": "La Carretera",
+        "amenity": "food_court",
+        "internet_access": "no",
+        "name": "Vins i Licors PERE ROMEU",
+        "phone": "+ 34 93 899 51 30",
+        "shop": "alcohol",
+        "smoking": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2296487246,
+      "lat": 40.3959326,
+      "lon": -3.705275,
+      "tags": {
+        "amenity": "food_court"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2309807292,
+      "lat": 38.8754885,
+      "lon": -6.9728321,
+      "tags": {
+        "addr:city": "Badajoz",
+        "addr:country": "ES",
+        "addr:street": "Calle Alonso de Celada",
+        "amenity": "food_court",
+        "name": "La Ochava en casa"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2309918390,
+      "lat": 38.8785681,
+      "lon": -6.9726247,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Pasteleria Menacho"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2352875569,
+      "lat": 43.0249823,
+      "lon": -7.5666145,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Darío"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2433696666,
+      "lat": 43.5414953,
+      "lon": -6.1055679,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Café-Bar Muros El Casino"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2433697365,
+      "lat": 43.5408039,
+      "lon": -6.1064815,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Café Marly"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2531139625,
+      "lat": 41.9631701,
+      "lon": 2.829464,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Cafeteria Barracons"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2531139630,
+      "lat": 41.9623199,
+      "lon": 2.8285639,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Cafeteria Ciencies"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2546771942,
+      "lat": 40.4098277,
+      "lon": -3.6989709,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Sug. Ignacio SL",
+        "opening_hours": "Mo-Fr 09:30-14:00, 16:30-19:30; Sa 10:00-14:00",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2557997477,
+      "lat": 42.3492501,
+      "lon": -3.6718627,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Casa Blanca"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2578554640,
+      "lat": 41.5037505,
+      "lon": -3.0981758,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Comedor"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2591978281,
+      "lat": 38.0832603,
+      "lon": -0.9468325,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Recora Comida Tradicional"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2600145035,
+      "lat": 38.0810395,
+      "lon": -0.9447212,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Pollos Carlos"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2615292016,
+      "lat": 42.9681521,
+      "lon": -5.7886642,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Cafetería Cueto Negro"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2621266982,
+      "lat": 43.3378825,
+      "lon": -1.7794674,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Izkira"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2626987586,
+      "lat": 43.336798,
+      "lon": -1.7859017,
+      "tags": {
+        "amenity": "food_court",
+        "name": "El Portu"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2629099822,
+      "lat": 43.3379699,
+      "lon": -1.7871087,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Doner Kebap"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2647400884,
+      "lat": 42.4641773,
+      "lon": -2.4539964,
+      "tags": {
+        "amenity": "food_court",
+        "internet_access": "no",
+        "name": "El Refugio",
+        "smoking": "no",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2686504173,
+      "lat": 37.0172147,
+      "lon": -2.428895,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Chiringuito África",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2730864388,
+      "lat": 40.9637768,
+      "lon": -5.6645555,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Jamón y Tapas",
+        "old_name": "Cervecería Gambrinus"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2770186506,
+      "lat": 37.9456775,
+      "lon": -2.9531643,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Café-Bar Consuelo",
+        "source": "survey",
+        "source:date": "20140405"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2770186512,
+      "lat": 37.9454103,
+      "lon": -2.9532795,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Mesón El Ciervo",
+        "note:es": "En obras por reforma en abril 2014",
+        "source": "survey",
+        "source:date": "20140405"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2770194005,
+      "lat": 37.9465868,
+      "lon": -2.9522749,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Café-Bar Jonathan",
+        "phone": "+34 692433505",
+        "source": "survey",
+        "source:date": "20140405"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2771973872,
+      "lat": 37.9483232,
+      "lon": -2.9489824,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Bar Comidas Casa Juan",
+        "source": "survey",
+        "source:date": "20140405"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2771981982,
+      "lat": 37.9146369,
+      "lon": -3.0039285,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Mesón la Toba",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2772020219,
+      "lat": 37.9162447,
+      "lon": -3.0050174,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Bar el Apeadero",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2772020283,
+      "lat": 37.9185086,
+      "lon": -3.0063028,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Cafeteria/bar Acebuche",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2772039747,
+      "lat": 37.9124705,
+      "lon": -3.0010966,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Bar Coral"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2772039750,
+      "lat": 37.9121689,
+      "lon": -3.0011587,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Cafetería Bar La Esquina"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2772039804,
+      "lat": 37.9143482,
+      "lon": -2.9999131,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Reto-Bar Los 7 Enanitos"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2772090202,
+      "lat": 37.9170527,
+      "lon": -3.0052036,
+      "tags": {
+        "amenity": "food_court",
+        "name": "CAFE/BAR La Oficina",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2772220277,
+      "lat": 37.9139258,
+      "lon": -3.0037092,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Congelados EMI",
+        "opening_hours": "10:00-14:00, 17:30-20:30",
+        "phone": "+34 652504126"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2783810982,
+      "lat": 39.7702621,
+      "lon": -0.5212934,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Bar El Rullo",
+        "source:date": "2012"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2783810985,
+      "lat": 39.7693805,
+      "lon": -0.5207263,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Bar Sandra",
+        "source:date": "2012"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2783810988,
+      "lat": 39.77066,
+      "lon": -0.5216626,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Bar de La Fuente",
+        "source:date": "2012"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2787354391,
+      "lat": 43.4091419,
+      "lon": -3.8595161,
+      "tags": {
+        "addr:city": "Revilla de Camargo",
+        "addr:country": "ES",
+        "addr:housename": "Centro Empresarial El Crucero",
+        "addr:postcode": "39600",
+        "amenity": "food_court",
+        "name": "La Taberna del Buddha"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2826356274,
+      "lat": 37.9109469,
+      "lon": -3.0028167,
+      "tags": {
+        "addr:city": "Cazorla",
+        "addr:country": "ES",
+        "addr:postcode": "23470",
+        "addr:province": "Jaén",
+        "addr:street": "Plaza de la Corredera",
+        "amenity": "food_court",
+        "name": "Komo en Casa",
+        "source": "survey",
+        "source:date": "20140405"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2838985875,
+      "lat": 37.9117117,
+      "lon": -3.0045505,
+      "tags": {
+        "addr:city": "Cazorla",
+        "addr:country": "ES",
+        "addr:postcode": "23470",
+        "addr:province": "Jaén",
+        "addr:street": "Calle Cruz de Orea",
+        "amenity": "food_court",
+        "name": "La Yedra",
+        "source": "survey",
+        "source:date": "20140405"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2877344242,
+      "lat": 42.1787766,
+      "lon": 3.109485,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Tropic Beach"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2966143193,
+      "lat": 40.8843903,
+      "lon": 0.8047522,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Cal Pintxo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2974166911,
+      "lat": 40.9612235,
+      "lon": -5.6426467,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Venta de Chan",
+        "phone": "+34 923 180 882"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2984598759,
+      "lat": 40.8836982,
+      "lon": 0.8043924,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Rostisseria Keta"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2997959036,
+      "lat": 41.6433984,
+      "lon": -0.8808456,
+      "tags": {
+        "amenity": "food_court",
+        "name": "frutería"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2999403089,
+      "lat": 37.3847253,
+      "lon": -6.004863,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Abacería Fisac"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3027061755,
+      "lat": 41.1188798,
+      "lon": 1.2507646,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Can Boada"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3048859823,
+      "lat": 41.6448943,
+      "lon": -0.8750445,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Cafetería Acuario"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3056413650,
+      "lat": 39.4761229,
+      "lon": -0.3517879,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Bar Nederland"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3056413651,
+      "lat": 39.4815471,
+      "lon": -0.3903978,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Cafetería Borja"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3056413652,
+      "lat": 39.4727626,
+      "lon": -0.3858309,
+      "tags": {
+        "amenity": "food_court",
+        "name": "El quito pino"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3056413653,
+      "lat": 39.4617387,
+      "lon": -0.372859,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Mare meua"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3062580003,
+      "lat": 40.8809489,
+      "lon": -3.8798798,
+      "tags": {
+        "amenity": "food_court"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3116655671,
+      "lat": 42.0094445,
+      "lon": 2.0279698,
+      "tags": {
+        "amenity": "food_court",
+        "contact:facebook": "https://ca-es.facebook.com/pages/Avi-Cisco/",
+        "name": "Aliments i queviures Avi Cisco",
+        "phone": "+34 677 19 49 62"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3127933250,
+      "lat": 39.4262269,
+      "lon": -6.691195,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Bar El Cazador"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3136517477,
+      "lat": 40.351276,
+      "lon": -3.6950403,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Museo del Jamón"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3144056624,
+      "lat": 42.2259805,
+      "lon": -8.7223496,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Java"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3144056628,
+      "lat": 42.2274234,
+      "lon": -8.7221358,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Taberna da Crise"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3194908390,
+      "lat": 40.5110416,
+      "lon": -3.3626894,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Alimentación y Bazar",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3205687133,
+      "lat": 42.6892474,
+      "lon": -2.9210233,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Pabellón C"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3264797389,
+      "lat": 42.692214,
+      "lon": -2.9500305,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Choco"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3346669451,
+      "lat": 36.2041639,
+      "lon": -5.4117528,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Cafetería Tamoil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3346704735,
+      "lat": 36.2048258,
+      "lon": -5.422599,
+      "tags": {
+        "amenity": "food_court"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3359363536,
+      "lat": 40.4025762,
+      "lon": -2.3149933,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Piscina Municipal"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3425076104,
+      "lat": 41.9841387,
+      "lon": 2.8222553,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Cuinats Mercadal"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3520903435,
+      "lat": 39.5382634,
+      "lon": 2.4506392,
+      "tags": {
+        "addr:city": "Peguera",
+        "addr:housenumber": "4",
+        "addr:postcode": "07160",
+        "addr:street": "Carrer de Palmira",
+        "amenity": "food_court",
+        "name": "Cafe La Bachor"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3522702046,
+      "lat": 37.3873499,
+      "lon": -6.0565103,
+      "tags": {
+        "amenity": "food_court"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3538422616,
+      "lat": 40.3509228,
+      "lon": -3.6962023,
+      "tags": {
+        "amenity": "food_court",
+        "name": "El Paisa"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3550372104,
+      "lat": 40.9020593,
+      "lon": -4.006758,
+      "tags": {
+        "amenity": "food_court",
+        "name": "La Golondrina"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3550372106,
+      "lat": 40.9019752,
+      "lon": -4.0068469,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Media Luna"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3550742278,
+      "lat": 40.3506283,
+      "lon": -3.6920634,
+      "tags": {
+        "addr:housenumber": "9",
+        "addr:postcode": "28041",
+        "addr:street": "Calle de Santa Petronila",
+        "amenity": "food_court",
+        "name": "La Parada",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3583231385,
+      "lat": 28.4826471,
+      "lon": -16.3223894,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Cafetería ESIT",
+        "smoking": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3589565388,
+      "lat": 28.4696931,
+      "lon": -16.3019914,
+      "tags": {
+        "amenity": "food_court",
+        "outdoor_seating": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3595249124,
+      "lat": 43.3751547,
+      "lon": -4.54054,
+      "tags": {
+        "addr:place": "Colombres",
+        "addr:street": "Calle La Plaza Bajo",
+        "amenity": "food_court",
+        "name": "Bar Capri",
+        "outdoor_seating": "yes",
+        "phone": "+34 984 193 268"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3626498156,
+      "lat": 40.8816433,
+      "lon": 0.7990578,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Com a Casa"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3637122571,
+      "lat": 40.3510207,
+      "lon": -3.6957975,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Bar Cristian"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3650121905,
+      "lat": 36.6179741,
+      "lon": -4.4975219,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Bananas Club"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3650121906,
+      "lat": 36.618385,
+      "lon": -4.4975634,
+      "tags": {
+        "amenity": "food_court",
+        "name": "El Gato Lounge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3650121907,
+      "lat": 36.618294,
+      "lon": -4.4976285,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Nina Love Chill Out"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3666515989,
+      "lat": 28.4255072,
+      "lon": -16.4936101,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Bodegas el Fonil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3716171132,
+      "lat": 41.9116852,
+      "lon": 3.1667285,
+      "tags": {
+        "amenity": "food_court",
+        "name": "El Racó del Pernil",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3732329498,
+      "lat": 28.9609324,
+      "lon": -13.5395142,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Pepa Food Market"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3812609120,
+      "lat": 41.5646402,
+      "lon": 2.012681,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Vinyl"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3836187113,
+      "lat": 36.7802742,
+      "lon": -6.350835,
+      "tags": {
+        "addr:street": "Plaza de los Milagros",
+        "amenity": "food_court",
+        "name": "Taberna Santo Domingo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3843637765,
+      "lat": 38.3419674,
+      "lon": -0.5009752,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Bar Mesón Las Puñetas"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3843637768,
+      "lat": 38.3428503,
+      "lon": -0.5008433,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Cervecería Tapería ZEUS"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3846501480,
+      "lat": 42.2669839,
+      "lon": -4.4066804,
+      "tags": {
+        "addr:housenumber": "8",
+        "addr:street": "Plaza de San Martín",
+        "amenity": "food_court",
+        "name": "Venta Boffard",
+        "outdoor_seating": "yes",
+        "phone": "+34 979 810 012"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3869644060,
+      "lat": 37.3766426,
+      "lon": -5.9990744,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Cofisa",
+        "source": "flashmapmob"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3869662559,
+      "lat": 37.3751483,
+      "lon": -5.9974515,
+      "tags": {
+        "amenity": "food_court",
+        "name": "La croissanteria",
+        "source": "flashmapmob",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3869695860,
+      "lat": 37.375486,
+      "lon": -5.9976459,
+      "tags": {
+        "amenity": "food_court",
+        "name": "ferreti gelato & cafe",
+        "outdoor_seating": "yes",
+        "source": "flashmapmob"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3887884387,
+      "lat": 42.2045647,
+      "lon": 0.9385053,
+      "tags": {
+        "amenity": "food_court",
+        "opening_hours": "Jun-Sep"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3890869993,
+      "lat": 42.041474,
+      "lon": 3.1243478,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Bar-Restaurant Aquarela"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3901304575,
+      "lat": 37.9376569,
+      "lon": -1.1321127,
+      "tags": {
+        "amenity": "food_court",
+        "name": "El Estanco"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3913578412,
+      "lat": 42.0416945,
+      "lon": 3.1237432,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Aida"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3913578434,
+      "lat": 42.0402712,
+      "lon": 3.1240893,
+      "tags": {
+        "amenity": "food_court",
+        "name": "La Lluna"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3913643266,
+      "lat": 42.0412136,
+      "lon": 3.1250661,
+      "tags": {
+        "amenity": "food_court",
+        "name": "El tast"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3913643271,
+      "lat": 42.0411931,
+      "lon": 3.1255524,
+      "tags": {
+        "amenity": "food_court",
+        "name": "La taverna"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3915055738,
+      "lat": 41.345824,
+      "lon": 1.6937991,
+      "tags": {
+        "amenity": "food_court",
+        "internet_access": "no",
+        "name": "Fleca Sant Pau",
+        "smoking": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3926257467,
+      "lat": 40.4624957,
+      "lon": -3.6296055,
+      "tags": {
+        "amenity": "food_court"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3935050669,
+      "lat": 41.3386884,
+      "lon": -3.8862953,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Bar Mesón Albatros"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3966720695,
+      "lat": 37.4044268,
+      "lon": -5.9175246,
+      "tags": {
+        "amenity": "food_court",
+        "name": "La Tapería de Pepe",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3980597399,
+      "lat": 39.5664158,
+      "lon": 3.2127218,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Sa Fonda"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4036270831,
+      "lat": 36.4653143,
+      "lon": -6.1972049,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Con Amor",
+        "outdoor_seating": "yes",
+        "smoking": "outside",
+        "takeaway": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4036270834,
+      "lat": 36.4649818,
+      "lon": -6.198188,
+      "tags": {
+        "amenity": "food_court",
+        "name": "El Balandro",
+        "outdoor_seating": "yes",
+        "smoking": "outside",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4036270860,
+      "lat": 36.460045,
+      "lon": -6.2014652,
+      "tags": {
+        "amenity": "food_court",
+        "name": "La compañia",
+        "outdoor_seating": "yes",
+        "smoking": "isolated",
+        "takeaway": "no",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4036270863,
+      "lat": 36.4664531,
+      "lon": -6.1952785,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Los Gallegos",
+        "outdoor_seating": "yes",
+        "smoking": "outside",
+        "takeaway": "no",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4036270864,
+      "lat": 36.4647686,
+      "lon": -6.1973693,
+      "tags": {
+        "amenity": "food_court",
+        "internet_access": "yes",
+        "name": "Low Cost Bar",
+        "takeaway": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4036270883,
+      "lat": 36.4655769,
+      "lon": -6.1969438,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Reverte",
+        "outdoor_seating": "yes",
+        "smoking": "outside",
+        "takeaway": "no",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4044561420,
+      "lat": 36.4622047,
+      "lon": -6.2029885,
+      "tags": {
+        "amenity": "food_court",
+        "name": "De Tapas Low Cost"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4044561440,
+      "lat": 36.4609819,
+      "lon": -6.2050013,
+      "tags": {
+        "amenity": "food_court",
+        "name": "El Trastero",
+        "takeaway": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4044561486,
+      "lat": 36.4623766,
+      "lon": -6.2002321,
+      "tags": {
+        "amenity": "food_court",
+        "name": "La REbotica",
+        "outdoor_seating": "yes",
+        "smoking": "outside",
+        "takeaway": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4044561493,
+      "lat": 36.4645636,
+      "lon": -6.198856,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Las Cositas Buenas",
+        "outdoor_seating": "yes",
+        "smoking": "outside",
+        "takeaway": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4044561508,
+      "lat": 36.4606303,
+      "lon": -6.2027841,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Peña Camarón de la Isla",
+        "takeaway": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4065013699,
+      "lat": 40.5223027,
+      "lon": -6.0651477,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Bar Restaurante"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4086145537,
+      "lat": 40.9603203,
+      "lon": -5.6680426,
+      "tags": {
+        "addr:city": "Salamanca",
+        "addr:country": "ES",
+        "addr:housenumber": "49",
+        "addr:postcode": "37008",
+        "addr:province": "Salamanca",
+        "addr:street": "Calle Libreros",
+        "amenity": "food_court",
+        "name": "La Fábrica"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4086881706,
+      "lat": 42.39398,
+      "lon": -8.8236674,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Mesón Fontán"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4114166016,
+      "lat": 40.4844582,
+      "lon": -5.9982432,
+      "tags": {
+        "addr:city": "Miranda del Castañar",
+        "addr:country": "ES",
+        "addr:housenumber": "3",
+        "addr:postcode": "37660",
+        "addr:province": "Salamanca",
+        "addr:street": "Avenida de la Constitución",
+        "amenity": "food_court",
+        "name": "Restaurante Las Petronilas"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4146294941,
+      "lat": 40.9670566,
+      "lon": -5.6628509,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Jamonería Duque"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4185576491,
+      "lat": 40.4153376,
+      "lon": -3.7088674,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Mercado San Miguel",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4192514153,
+      "lat": 41.7509801,
+      "lon": 2.1206667,
+      "tags": {
+        "addr:housenumber": "12",
+        "addr:street": "Carrer de Bellver",
+        "amenity": "food_court",
+        "cuisine": "regional;spanish;pizza",
+        "email": "jordir441@gmail.com",
+        "name": "JR Pizzes",
+        "opening_hours": "Fr, Sa 10:30-14:30, 18:30-22:30; Su 10:30-14:30",
+        "phone": "+34 938666721",
+        "takeaway": "only"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4200188090,
+      "lat": 38.5380956,
+      "lon": -0.8176226,
+      "tags": {
+        "amenity": "food_court",
+        "name": "El Gure Gastrobar"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4205473389,
+      "lat": 38.5362348,
+      "lon": -0.8160195,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Bar-Taperia El Quijote",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4205591330,
+      "lat": 38.534546,
+      "lon": -0.8184984,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Pórtico de Torres"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4240257621,
+      "lat": 38.4891389,
+      "lon": -0.7335255,
+      "tags": {
+        "amenity": "food_court",
+        "name": "L'Almadrava",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4272290078,
+      "lat": 38.3987867,
+      "lon": -0.5263942,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Tapería El Pikoteo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4284104806,
+      "lat": 36.9726759,
+      "lon": -2.464299,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Bar vuestra Casa",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4320334503,
+      "lat": 38.1392605,
+      "lon": -0.6477554,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Asador de pollos"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4320334517,
+      "lat": 38.1442397,
+      "lon": -0.6467104,
+      "tags": {
+        "amenity": "food_court",
+        "name": "El Barco"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4320334532,
+      "lat": 38.1475109,
+      "lon": -0.6452792,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Lunch Room"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4320334542,
+      "lat": 38.1469448,
+      "lon": -0.6454226,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Pizzería Maruzzella"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4320334543,
+      "lat": 38.1455286,
+      "lon": -0.6454868,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Pizzería San Francisco"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4320334551,
+      "lat": 38.1473476,
+      "lon": -0.6453213,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Tapería El Molar"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4396475520,
+      "lat": 38.7864995,
+      "lon": -1.3270544,
+      "tags": {
+        "amenity": "food_court",
+        "name": "El rincón de Joaquín",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4406771695,
+      "lat": 38.537304,
+      "lon": -0.1425664,
+      "tags": {
+        "addr:city": "Benidorm",
+        "addr:street": "Avinguda de l'Armada Espanyola",
+        "amenity": "food_court",
+        "name": "Gastro Market"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4436121648,
+      "lat": 40.3443094,
+      "lon": -5.8589696,
+      "tags": {
+        "amenity": "food_court",
+        "leisure": "outdoor_seating",
+        "name": "Chiringuito La Calleja"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4442608189,
+      "lat": 43.5326439,
+      "lon": -5.6732858,
+      "tags": {
+        "amenity": "food_court",
+        "name": "El Asador del Poligono",
+        "takeaway": "only"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4494640663,
+      "lat": 42.9300688,
+      "lon": -4.7590987,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Puente Agudín",
+        "phone": "+34 675880636",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4497152988,
+      "lat": 41.1040368,
+      "lon": -3.7677606,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Cañicosa",
+        "outdoor_seating": "yes",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4497153019,
+      "lat": 41.1393896,
+      "lon": -3.6887388,
+      "tags": {
+        "amenity": "food_court",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Los 3 Hermanos",
+        "outdoor_seating": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4550853906,
+      "lat": 37.4306244,
+      "lon": -5.9806615,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Cafetería Atenas",
+        "outdoor_seating": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4561578600,
+      "lat": 36.8410911,
+      "lon": -2.4605062,
+      "tags": {
+        "amenity": "food_court",
+        "email": "info@sanareweb.es",
+        "name": "Sanare cocina + nutrición",
+        "phone": "+34 699 702 993",
+        "takeaway": "only",
+        "website": "http://www.sanareweb.es"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4568497322,
+      "lat": 37.4307117,
+      "lon": -5.9811242,
+      "tags": {
+        "amenity": "food_court",
+        "description": "veladores en línea de fachada / <1,5 m",
+        "name": "Cafetería Bar Guadalquivir",
+        "obstacle:foot": "yes",
+        "obstacle:wheelchair": "yes",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4595092112,
+      "lat": 36.7479971,
+      "lon": -4.0561841,
+      "tags": {
+        "amenity": "food_court",
+        "name": "La Cocina De Reine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4596893364,
+      "lat": 36.7431965,
+      "lon": -4.0948361,
+      "tags": {
+        "amenity": "food_court",
+        "name": "El Cortijillo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4611949348,
+      "lat": 40.4835468,
+      "lon": -3.6361524,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Mesón Las Cuvas"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4644171942,
+      "lat": 41.8371266,
+      "lon": 2.2803649,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Can Cabo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4671759974,
+      "lat": 41.0089449,
+      "lon": -6.4348049,
+      "tags": {
+        "addr:city": "Vitigudino",
+        "addr:country": "ES",
+        "addr:housenumber": "12",
+        "addr:postcode": "37120",
+        "addr:province": "Salamanca",
+        "addr:street": "Calle de San Roque",
+        "amenity": "food_court",
+        "name": "La Calleja",
+        "phone": "+34 923 500 858"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4674222480,
+      "lat": 41.0090164,
+      "lon": -6.4344131,
+      "tags": {
+        "addr:city": "Vitigudino",
+        "addr:country": "ES",
+        "addr:housenumber": "7",
+        "addr:postcode": "37210",
+        "addr:province": "Salamanca",
+        "addr:street": "Calle Tomás López",
+        "amenity": "food_court",
+        "name": "Bar Restaurante El Recreo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4679012844,
+      "lat": 36.7150152,
+      "lon": -4.2829055,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Padhalwok"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4679052023,
+      "lat": 40.6182309,
+      "lon": -3.7176346,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Sucellus",
+        "outdoor_seating": "yes",
+        "smoking": "isolated"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4707208484,
+      "lat": 43.4807065,
+      "lon": -8.2245403,
+      "tags": {
+        "addr:city": "Ferrol",
+        "addr:postcode": "15403",
+        "addr:street": "Rúa San Luís",
+        "amenity": "food_court",
+        "contact:facebook": "https://www.facebook.com/ManerasdeVivirFerrol/",
+        "name": "Maneras de Vivir",
+        "opening_hours": "Mo off; Tu-Th 08:00-00:00; Fr 08:00-00:30; Sa 11:00-00:00; Su 11:00-16:00",
+        "phone": "+34 981946154"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4708705296,
+      "lat": 43.4783083,
+      "lon": -8.2428811,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Taberna de Anca"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4708705297,
+      "lat": 43.4783977,
+      "lon": -8.2432747,
+      "tags": {
+        "addr:city": "Ferrol",
+        "addr:housenumber": "32",
+        "addr:postcode": "15401",
+        "addr:street": "Rúa Cristo",
+        "amenity": "food_court",
+        "name": "El Coral"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4716311906,
+      "lat": 41.913907,
+      "lon": -4.5097315,
+      "tags": {
+        "amenity": "food_court"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4726984272,
+      "lat": 37.9685085,
+      "lon": -1.2161597,
+      "tags": {
+        "amenity": "food_court"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4737138229,
+      "lat": 41.9757641,
+      "lon": 2.8032019,
+      "tags": {
+        "addr:city": "Girona",
+        "addr:housenumber": "65",
+        "addr:postcode": "17006",
+        "addr:street": "Carrer de la Maçana",
+        "amenity": "food_court",
+        "name": "Rostisseria Ca l'Àngel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4757552149,
+      "lat": 40.936124,
+      "lon": -6.72087,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Café-Bar Florida"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4763958261,
+      "lat": 41.0049997,
+      "lon": -6.4377436,
+      "tags": {
+        "addr:city": "Vitigudino",
+        "addr:country": "ES",
+        "addr:housenumber": "20",
+        "addr:postcode": "37210",
+        "addr:province": "Salamanca",
+        "addr:street": "Calle Portales de Santa Ana",
+        "amenity": "food_court",
+        "name": "Bar el Retiro",
+        "phone": "+34 923 52 02 33"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4783254662,
+      "lat": 41.7493946,
+      "lon": 2.1146038,
+      "tags": {
+        "addr:city": "Castellterçol",
+        "addr:housenumber": "37",
+        "addr:street": "Carrer de Sant Francesc",
+        "amenity": "food_court",
+        "cuisine": "regional;spanish",
+        "delivery": "no",
+        "name": "Menjars com a casa",
+        "phone": "+34938668051",
+        "takeaway": "only"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4891579481,
+      "lat": 42.2482334,
+      "lon": -8.698465,
+      "tags": {
+        "addr:city": "Vigo",
+        "addr:postcode": "36207",
+        "addr:street": "Sanjurjo Badia",
+        "amenity": "food_court",
+        "name": "El Portal del Jamón Vigo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4908881937,
+      "lat": 42.1827362,
+      "lon": -8.7890358,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Catering Don Pepe"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4943660179,
+      "lat": 41.652531,
+      "lon": -0.8806776,
+      "tags": {
+        "amenity": "food_court",
+        "level": "1",
+        "name": "Mercado Gastronómico",
+        "name:it": "Mercato Gastronomico Puerta Cinegia"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4947482724,
+      "lat": 37.9774898,
+      "lon": -1.105101,
+      "tags": {
+        "amenity": "food_court",
+        "cuisine": "chicken",
+        "fuel": "electric",
+        "name": "Pollos Asados Juan José"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5046187171,
+      "lat": 37.4247434,
+      "lon": -5.8630782,
+      "tags": {
+        "amenity": "food_court",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5066305776,
+      "lat": 40.3748114,
+      "lon": 0.4060724,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Blanco & Negro"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5221943949,
+      "lat": 28.1180243,
+      "lon": -15.4227931,
+      "tags": {
+        "amenity": "food_court",
+        "name": "B de Bellota"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5275074558,
+      "lat": 42.5230363,
+      "lon": -4.7359998,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Restaurante la casa torcida"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5291969281,
+      "lat": 41.0588513,
+      "lon": -4.3918801,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Restaurante"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5375541168,
+      "lat": 42.4309158,
+      "lon": -8.6439295,
+      "tags": {
+        "amenity": "food_court",
+        "cuisine": "bauble",
+        "name": "La Metro"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5604538959,
+      "lat": 42.34494,
+      "lon": -7.8655172,
+      "tags": {
+        "amenity": "food_court",
+        "level": "3"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5789634239,
+      "lat": 40.4919456,
+      "lon": -3.5915443,
+      "tags": {
+        "amenity": "food_court",
+        "level": "1",
+        "name": "Eating Point"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5862262295,
+      "lat": 40.8835335,
+      "lon": 0.8012724,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Ca la Cris",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5869690831,
+      "lat": 42.8754439,
+      "lon": -8.543584,
+      "tags": {
+        "amenity": "food_court",
+        "name": "La Galiciana"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5890531671,
+      "lat": 41.592658,
+      "lon": 1.8364939,
+      "tags": {
+        "amenity": "food_court",
+        "name": "La Cafeteria",
+        "smoking": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5982263405,
+      "lat": 40.4362244,
+      "lon": -3.6973751,
+      "tags": {
+        "amenity": "food_court",
+        "name": "La Chispería",
+        "website": "http://lachisperiadechamberi.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6058730163,
+      "lat": 36.1814286,
+      "lon": -5.3365504,
+      "tags": {
+        "addr:city": "La Línea de la Concepción",
+        "addr:housenumber": "6",
+        "addr:street": "Calle Las Anclas",
+        "amenity": "food_court",
+        "food": "regional",
+        "name": "Bar restaurante Las Cañas",
+        "phone": "+34 956 64 36 79"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6118581156,
+      "lat": 41.6123494,
+      "lon": 2.0831484,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Restaurante Pérez"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6122668539,
+      "lat": 41.7030041,
+      "lon": 1.875089,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Cal Curro"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6296890998,
+      "lat": 41.8418912,
+      "lon": 2.247461,
+      "tags": {
+        "amenity": "food_court",
+        "name": "la Cantina de l'Estació"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6355722313,
+      "lat": 43.4123224,
+      "lon": -3.86122,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Restaurant Villa Maria"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6358613966,
+      "lat": 38.428115,
+      "lon": -6.4212258,
+      "tags": {
+        "amenity": "food_court",
+        "source": "local knowledge;PNOA Spain"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6358615207,
+      "lat": 38.4268138,
+      "lon": -6.4174721,
+      "tags": {
+        "amenity": "food_court",
+        "source": "local knowledge;PNOA Spain"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6358615212,
+      "lat": 38.4273323,
+      "lon": -6.4154269,
+      "tags": {
+        "amenity": "food_court",
+        "source": "local knowledge;PNOA Spain"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6358616011,
+      "lat": 38.425372,
+      "lon": -6.4202615,
+      "tags": {
+        "amenity": "food_court",
+        "source": "local knowledge;PNOA Spain"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6358616021,
+      "lat": 38.4243708,
+      "lon": -6.418234,
+      "tags": {
+        "amenity": "food_court",
+        "source": "local knowledge;PNOA Spain"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6358659748,
+      "lat": 38.4253216,
+      "lon": -6.4194472,
+      "tags": {
+        "amenity": "food_court",
+        "source": "PNOA Spain"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6691804754,
+      "lat": 41.2823152,
+      "lon": -4.6828242,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Merendero"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6702910701,
+      "lat": 39.5529379,
+      "lon": -0.4961342,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Comida para llevar"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6705188284,
+      "lat": 39.5291717,
+      "lon": -0.4846126,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Cuinart Comida para llevar"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6795368502,
+      "lat": 42.45558,
+      "lon": -2.4372745,
+      "tags": {
+        "addr:city": "Logroño",
+        "addr:street": "Calle Estambrera",
+        "amenity": "food_court",
+        "name": "Precocinados y encargos de paellas, fritos y tortillas"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6815003407,
+      "lat": 41.8820249,
+      "lon": 2.2424636,
+      "tags": {
+        "amenity": "food_court",
+        "name": "L'Indià"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6836628212,
+      "lat": 40.7183394,
+      "lon": 0.7351273,
+      "tags": {
+        "amenity": "food_court",
+        "name": "Nicanor"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6864135967,
+      "lat": 37.5929133,
+      "lon": -5.7275906,
+      "tags": {
+        "addr:city": "Los Rosales (Tocina)",
+        "addr:postcode": "41330",
+        "amenity": "food_court",
+        "name": "Bar El Parque"
+      }
+    },
+    {
+      "type": "way",
+      "id": 49261213,
+      "nodes": [
+        625684519,
+        625684819,
+        625684816,
+        625684516,
+        625684519
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "building": "construction",
+        "old_name": "Cámara Oficial de Comercio, Industria y Navegación"
+      }
+    },
+    {
+      "type": "way",
+      "id": 53021249,
+      "nodes": [
+        671560409,
+        671560410,
+        1654571918,
+        671560411,
+        1654571915,
+        1654571901,
+        671560412,
+        1654571900,
+        1654571895,
+        671560413,
+        671560415,
+        671560416,
+        671560417,
+        671560418,
+        1112159412,
+        671560420,
+        671560421,
+        671560422,
+        671560423,
+        671560424,
+        671560409
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "building": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "yes",
+        "name": "Getxo Plaza",
+        "smoking": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 88364214,
+      "nodes": [
+        1026399081,
+        1026398734,
+        1026398925,
+        1026398903,
+        1026398952,
+        1026398998,
+        1026399081
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "building": "yes",
+        "name": "Mercado de San Juan"
+      }
+    },
+    {
+      "type": "way",
+      "id": 93475348,
+      "nodes": [
+        1083626693,
+        1083626384,
+        1083626618,
+        1083626817,
+        1083626693
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "building": "yes",
+        "name": "Bar Restaurante"
+      }
+    },
+    {
+      "type": "way",
+      "id": 94362280,
+      "nodes": [
+        1096337384,
+        1096337438,
+        1096337408,
+        1096337468,
+        1096337356,
+        1096337444,
+        1096337453,
+        1096337381,
+        1096337384
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "building": "yes",
+        "opening_hours": "Mo 07:00-23:59; Tu-Sa 00:00-23:59; Su 00:00-21:00"
+      }
+    },
+    {
+      "type": "way",
+      "id": 94362292,
+      "nodes": [
+        1096337379,
+        1096337471,
+        1096337410,
+        1096337507,
+        1096337427,
+        1096337450,
+        1096337439,
+        1096337357,
+        1096337379
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "building": "yes",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "type": "way",
+      "id": 98601334,
+      "nodes": [
+        1140739271,
+        1140739279,
+        1140739283,
+        1140739270,
+        1140739272,
+        1140739271
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "building": "yes",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Cafetería Ampriu",
+        "smoking": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 112525860,
+      "nodes": [
+        1278758899,
+        1278758901,
+        1278758898,
+        1278758902,
+        1278758899
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "name": "Bar Rafa"
+      }
+    },
+    {
+      "type": "way",
+      "id": 120418445,
+      "nodes": [
+        1350261443,
+        1350261441,
+        1350261429,
+        1350261426,
+        1350261443
+      ],
+      "tags": {
+        "addr:city": "Sevilla",
+        "addr:postcode": "41001",
+        "addr:street": "Calle Arjona",
+        "amenity": "food_court",
+        "building": "yes",
+        "name": "Mercado Lonja del Barranco",
+        "opening_hours": "Su-Th 10:00-24:00; Fr-Sa 10:00-02:00; PH off",
+        "phone": "+34 954 220 495",
+        "website": "http://www.mercadolonjadelbarranco.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 127718730,
+      "nodes": [
+        1412986477,
+        1412986480,
+        1412986506,
+        1412986501,
+        1412986512,
+        1412986511,
+        1412986504,
+        1412986498,
+        1412986470,
+        1412986475,
+        1412986469,
+        1412986473,
+        1412986477
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "building": "yes",
+        "layer": "1",
+        "name": "Bar de la piscina"
+      }
+    },
+    {
+      "type": "way",
+      "id": 150495794,
+      "nodes": [
+        1634063604,
+        1634063608,
+        1634063601,
+        1634063568,
+        1634063604
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "building": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "eduroam",
+        "name": "Chiringuito Informática"
+      }
+    },
+    {
+      "type": "way",
+      "id": 155793981,
+      "nodes": [
+        1681560361,
+        1681560352,
+        1681560368,
+        1681560373,
+        1681560361
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "name": "Chiringuito"
+      }
+    },
+    {
+      "type": "way",
+      "id": 155793982,
+      "nodes": [
+        1681560328,
+        1681560320,
+        1681560332,
+        1681560344,
+        1681560328
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "name": "Chiringuito"
+      }
+    },
+    {
+      "type": "way",
+      "id": 155793983,
+      "nodes": [
+        1681560289,
+        1681560274,
+        1681560292,
+        1681560297,
+        1681560289
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "name": "Chiringuito"
+      }
+    },
+    {
+      "type": "way",
+      "id": 157101965,
+      "nodes": [
+        1693350830,
+        1693350679,
+        1693350923,
+        1693351090,
+        1693350932,
+        1693351024,
+        1693350914,
+        1693350864,
+        1693350830
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "building": "yes",
+        "name": "Bar El Barriles"
+      }
+    },
+    {
+      "type": "way",
+      "id": 164428717,
+      "nodes": [
+        4989561014,
+        4989562316,
+        1760665970,
+        1760665986,
+        4989561014
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "name": "Food Court La Plaza"
+      }
+    },
+    {
+      "type": "way",
+      "id": 165613190,
+      "nodes": [
+        1771530538,
+        1771530519,
+        1771530517,
+        1771530537,
+        1771530538
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "building": "yes",
+        "name": "La Chopera"
+      }
+    },
+    {
+      "type": "way",
+      "id": 169499008,
+      "nodes": [
+        1806589320,
+        1806589317,
+        1806589319,
+        1806589313,
+        1806589309,
+        1806589281,
+        1806589277,
+        1806589296,
+        1806589279,
+        1806589304,
+        1806589311,
+        1806589315,
+        1806589320
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "name": "La Granja"
+      }
+    },
+    {
+      "type": "way",
+      "id": 172969249,
+      "nodes": [
+        1837996609,
+        1837996605,
+        1837996607,
+        1837996611,
+        1837996609
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "building": "yes",
+        "name": "Manoli"
+      }
+    },
+    {
+      "type": "way",
+      "id": 188895363,
+      "nodes": [
+        1995258284,
+        1995258279,
+        1995258277,
+        1995258280,
+        1995258284
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "building": "yes",
+        "name": "La Pausa"
+      }
+    },
+    {
+      "type": "way",
+      "id": 200341262,
+      "nodes": [
+        2103300661,
+        2103300662,
+        2103300656,
+        2103300641,
+        2103300639,
+        2103300636,
+        2103300630,
+        2103300631,
+        2103300622,
+        2103300624,
+        2103300633,
+        2103300635,
+        2103300638,
+        2103300637,
+        2103300657,
+        2103300658,
+        2103300660,
+        2103300661
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "building": "yes",
+        "name": "Sidrería Sagarzazu"
+      }
+    },
+    {
+      "type": "way",
+      "id": 222043172,
+      "nodes": [
+        2310261490,
+        2310261465,
+        2310261470,
+        2310261483,
+        2310261479,
+        2310261489,
+        2310261478,
+        2310261494,
+        2310261490
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 225730715,
+      "nodes": [
+        2344861211,
+        2344861113,
+        2344861119,
+        2344861203,
+        2344861211
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "building": "yes",
+        "name": "USA Center",
+        "old_name": "Gran Casino de Cartagena"
+      }
+    },
+    {
+      "type": "way",
+      "id": 267105736,
+      "nodes": [
+        2725777513,
+        2725777514,
+        2725777518,
+        2725777520,
+        2725777521,
+        2725777519,
+        2725777517,
+        2725777516,
+        2725777515,
+        2725777513
+      ],
+      "tags": {
+        "amenity": "food_court"
+      }
+    },
+    {
+      "type": "way",
+      "id": 288929065,
+      "nodes": [
+        1537435722,
+        2924821136,
+        2924821138,
+        2924821134,
+        1537435722
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "building": "yes",
+        "name": "San Nicolás de Bujaruelo",
+        "tourism": "hostel",
+        "wikidata": "Q21675354"
+      }
+    },
+    {
+      "type": "way",
+      "id": 297159919,
+      "nodes": [
+        3010085821,
+        3010085807,
+        3010085818,
+        3010085826,
+        3010085821
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "building": "yes",
+        "building:levels": "2",
+        "name": "Cantina Balsares"
+      }
+    },
+    {
+      "type": "way",
+      "id": 326974041,
+      "nodes": [
+        3336805629,
+        3336805622,
+        3336805696,
+        3336805658,
+        3336805608,
+        3336805385,
+        3336805408,
+        3336805629
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "building": "yes",
+        "name": "Bar la Alberca",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 329112588,
+      "nodes": [
+        3359364007,
+        3359364010,
+        3359364003,
+        3359363998,
+        3359364007
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "name": "Piscina Municipal"
+      }
+    },
+    {
+      "type": "way",
+      "id": 332194825,
+      "nodes": [
+        3393075098,
+        3393075099,
+        3461939368,
+        3393075100,
+        3840586027,
+        3840586024,
+        3393075101,
+        3393075102,
+        3393075103,
+        3840586039,
+        3393075098
+      ],
+      "tags": {
+        "addr:city": "Madrid",
+        "addr:country": "ES",
+        "addr:housenumber": "57",
+        "addr:postcode": "28004",
+        "addr:street": "Calle de Fuencarral",
+        "amenity": "food_court",
+        "building": "yes",
+        "comment": "La primera planta abre a las 10:00, pero el resto no abren hasta las 12:00.",
+        "name": "Mercado de San Ildefonso",
+        "name:en": "San Ildefonso Street Market",
+        "name:es": "Mercado de San Ildefonso",
+        "opening_hours": "Mo-We 10:00-24:00;Th-Sa 10:00-01:00, Su 10:00-24:00",
+        "phone": "+34 91 559 13 00",
+        "website": "https://www.mercadodesanildefonso.com/",
+        "wheelchair": "limited",
+        "wikidata": "Q5852585"
+      }
+    },
+    {
+      "type": "way",
+      "id": 340011351,
+      "nodes": [
+        3472114249,
+        3472114250,
+        3472114248,
+        3472114247,
+        3472114245,
+        3472114244,
+        3472114249
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "building": "yes",
+        "name": "Bar La Maniobra",
+        "source": "Catastro",
+        "source:date": "2015"
+      }
+    },
+    {
+      "type": "way",
+      "id": 340020433,
+      "nodes": [
+        3472256458,
+        3472256462,
+        3472256467,
+        3472256471,
+        3472256473,
+        3472256474,
+        3472256472,
+        3472256461,
+        3472256460,
+        3472256454,
+        3472256439,
+        3472256434,
+        3472256435,
+        3472256436,
+        3472256456,
+        3472256458
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "building": "yes",
+        "building:levels": "2",
+        "name": "Cateria - Bar",
+        "source": "Catastro",
+        "source:date": "2015"
+      }
+    },
+    {
+      "type": "way",
+      "id": 341870926,
+      "nodes": [
+        3489382001,
+        3489381999,
+        3489381998,
+        3489382003,
+        3489382004,
+        3489382008,
+        3489382001
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "building": "yes",
+        "name": "Restaurante - cafeteria La Rotonda"
+      }
+    },
+    {
+      "type": "way",
+      "id": 344330070,
+      "nodes": [
+        3510744029,
+        3510744023,
+        3510744022,
+        3510744021,
+        3510744020,
+        3510744028,
+        3510744029
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "building": "yes",
+        "building:levels": "1",
+        "name": "Cafetería Cruz Blanca"
+      }
+    },
+    {
+      "type": "way",
+      "id": 346555575,
+      "nodes": [
+        3530617104,
+        3530617111,
+        3530617119,
+        3530617109,
+        3530617104
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "building": "yes",
+        "internet_access": "no",
+        "outdoor_seating": "yes",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 348736152,
+      "nodes": [
+        3547897222,
+        3547897212,
+        3547897213,
+        3547897223,
+        3547897222
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "building": "yes",
+        "building:levels": "3",
+        "name": "Bar Paco",
+        "outdoor_seating": "yes",
+        "phone": "+34 965 87 92 58",
+        "smoking": "outside",
+        "source": "catastro"
+      }
+    },
+    {
+      "type": "way",
+      "id": 356581359,
+      "nodes": [
+        3619828780,
+        3619828792,
+        3619829196,
+        3619829195,
+        3619829193,
+        3619828782,
+        3619828780
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 362368252,
+      "nodes": [
+        3666937260,
+        3666937234,
+        3666937220,
+        3666937233,
+        3666937260
+      ],
+      "tags": {
+        "addr:city": "Ezkio-itsaso",
+        "addr:country": "ES",
+        "addr:housenumber": "12",
+        "addr:postcode": "20709",
+        "addr:street": "Itsaso Nucleo",
+        "amenity": "food_court",
+        "b5m:id": "D_13587",
+        "b5m:url": "http://b5m.gipuzkoa.net/b5map/r1/eu/mapa/lekutu/D_13587",
+        "b5m:urlOrto": "http://b5m.gipuzkoa.net/url5000/index.php?id=D_13587&lengua=1&actu=0&categoria=VITO_FOTO",
+        "building": "yes",
+        "name": "Ostatua",
+        "source": "b5m"
+      }
+    },
+    {
+      "type": "way",
+      "id": 372638880,
+      "nodes": [
+        3761908366,
+        3761889992,
+        3761908367,
+        3761908368,
+        3761908369,
+        3761908370,
+        3761903838,
+        3761906496,
+        3761906497,
+        3761908366
+      ],
+      "tags": {
+        "amenity": "food_court"
+      }
+    },
+    {
+      "type": "way",
+      "id": 388553661,
+      "nodes": [
+        3917434852,
+        3917434853,
+        3917434848,
+        3917434846,
+        3917434852
+      ],
+      "tags": {
+        "addr:city": "Cazorla",
+        "addr:country": "ES",
+        "addr:housenumber": "32",
+        "addr:postcode": "23470",
+        "addr:street": "Calle Poniente",
+        "amenity": "food_court",
+        "building": "yes",
+        "name": "DibeCazorla S.L.",
+        "smoking": "no",
+        "source": "PNOA",
+        "source:date": "2013",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 388553667,
+      "nodes": [
+        3917434837,
+        3917434847,
+        3917434843,
+        3917434839,
+        4209768234,
+        3917434836,
+        3917434837
+      ],
+      "tags": {
+        "addr:city": "Cazorla",
+        "addr:country": "ES",
+        "addr:housenumber": "64",
+        "addr:postcode": "23470",
+        "addr:street": "Calle Levante",
+        "amenity": "food_court",
+        "building": "yes",
+        "name": "Salones La Sarga",
+        "smoking": "no",
+        "source": "PNOA",
+        "source:date": "2013",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 393185767,
+      "nodes": [
+        3964026326,
+        3964026324,
+        3964026325,
+        3964026316,
+        3964026315,
+        3964026312,
+        3964026307,
+        3964026311,
+        3964026306,
+        3964026319,
+        3964026320,
+        3964026322,
+        3964026326
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "building": "yes",
+        "building:levels": "1",
+        "name": "Club Náutico La Sotonera",
+        "sport": "water_sports",
+        "wpt_symbol": "Anchor"
+      }
+    },
+    {
+      "type": "way",
+      "id": 407188347,
+      "nodes": [
+        4092231380,
+        4092231360,
+        4092231355,
+        4092231379,
+        4092231380
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "building": "yes",
+        "name": "Bar Fonda",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 407188348,
+      "nodes": [
+        4092231383,
+        4092231362,
+        4092231357,
+        4092231356,
+        4092231365,
+        4092231382,
+        4092231383
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "building": "yes",
+        "name": "Bar Maria",
+        "outdoor_seating": "yes",
+        "phone": "+34 965 87 92 26"
+      }
+    },
+    {
+      "type": "way",
+      "id": 463321594,
+      "nodes": [
+        4586014091,
+        4586014092,
+        4702180105,
+        4586014093,
+        4586014094,
+        4586014091
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "building": "yes",
+        "name": "Plaza del Museo"
+      }
+    },
+    {
+      "type": "way",
+      "id": 480933887,
+      "nodes": [
+        4738793141,
+        4738793142,
+        4738793143,
+        4738793144,
+        4738793145,
+        4738793146,
+        4738793147,
+        4738793148,
+        4738793149,
+        4738793150,
+        6159688076,
+        4738793151,
+        4738793152,
+        4738793153,
+        4738793154,
+        4738793155,
+        4738793141
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 547021946,
+      "nodes": [
+        5285703748,
+        5285703749,
+        5285703750,
+        3830581932,
+        5285703748
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 549007394,
+      "nodes": [
+        5303417004,
+        3684020300,
+        3684020315,
+        3684020309,
+        3684020311,
+        3684020304,
+        3684020306,
+        5303417005,
+        3684020302,
+        3684020299,
+        5303417003,
+        5303417002,
+        5303417001,
+        5303417004
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "building": "yes",
+        "name": "La Rectoria",
+        "outdoor_seating": "yes",
+        "smoking": "outside",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 564742741,
+      "nodes": [
+        5440431632,
+        5440431626,
+        5440431627,
+        5440431628,
+        5440431629,
+        5440431630,
+        5440431631,
+        5440431625,
+        5440431633,
+        5440431634,
+        5440431635,
+        5440431632
+      ],
+      "tags": {
+        "amenity": "food_court"
+      }
+    },
+    {
+      "type": "way",
+      "id": 564742760,
+      "nodes": [
+        5440431781,
+        5440431782,
+        5440431783,
+        5440431784,
+        5440431691,
+        5440431690,
+        5440431689,
+        5440431688,
+        5440431687,
+        5440431785,
+        5440431786,
+        5440431787,
+        5440431788,
+        5440431781
+      ],
+      "tags": {
+        "amenity": "food_court"
+      }
+    },
+    {
+      "type": "way",
+      "id": 579013794,
+      "nodes": [
+        5546162613,
+        5546162614,
+        5546162615,
+        5546162616,
+        5546162617,
+        5546162618,
+        5546162613
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 590956584,
+      "nodes": [
+        5641363313,
+        5641363306,
+        5641363305,
+        5641363318,
+        5641363319,
+        5641363320,
+        5641363314,
+        5641363313
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "building": "yes",
+        "name": "Els Magazinos"
+      }
+    },
+    {
+      "type": "way",
+      "id": 676228412,
+      "nodes": [
+        6332864686,
+        6332864687,
+        6332864688,
+        6332864689,
+        6332864690,
+        6332864686
+      ],
+      "tags": {
+        "addr:city": "La Alameda",
+        "addr:postcode": "42126",
+        "addr:street": "Carretera de Deza",
+        "amenity": "food_court",
+        "building": "yes",
+        "name": "Corral de las Cabras",
+        "operator": "La Bellota"
+      }
+    },
+    {
+      "type": "way",
+      "id": 678928470,
+      "nodes": [
+        6357090748,
+        6357090747,
+        6357090744,
+        6357090743,
+        6357090739,
+        6357090748
+      ],
+      "tags": {
+        "amenity": "food_court"
+      }
+    },
+    {
+      "type": "way",
+      "id": 679059387,
+      "nodes": [
+        6358613971,
+        6358613970,
+        6358613969,
+        6358613968,
+        6358613967,
+        6358613983,
+        6358613971
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "source": "local knowledge;PNOA Spain"
+      }
+    },
+    {
+      "type": "way",
+      "id": 679059461,
+      "nodes": [
+        6358615211,
+        6358615210,
+        6358615209,
+        6358615208,
+        6358615211
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "source": "local knowledge;PNOA Spain"
+      }
+    },
+    {
+      "type": "way",
+      "id": 679059462,
+      "nodes": [
+        6358615216,
+        6358615215,
+        6358615214,
+        6358615213,
+        6358615216
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "source": "local knowledge;PNOA Spain"
+      }
+    },
+    {
+      "type": "way",
+      "id": 679059519,
+      "nodes": [
+        6358616354,
+        6358616353,
+        6358616352,
+        6358616344,
+        5279369339,
+        5279369340,
+        5279369341,
+        6358616351,
+        6358616350,
+        6358616354
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "source": "local knowledge;PNOA Spain"
+      }
+    },
+    {
+      "type": "way",
+      "id": 679059520,
+      "nodes": [
+        6358616357,
+        5279362021,
+        6358616355,
+        6358616358,
+        6358616357
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "source": "local knowledge;PNOA Spain"
+      }
+    },
+    {
+      "type": "way",
+      "id": 679059543,
+      "nodes": [
+        6358616562,
+        6358616561,
+        6358616560,
+        6358616559,
+        6358616558,
+        6358616562
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "source": "local knowledge;PNOA Spain"
+      }
+    },
+    {
+      "type": "way",
+      "id": 699205188,
+      "nodes": [
+        6565903990,
+        6565903991,
+        6565903992,
+        6565903993,
+        6565903994,
+        6565897476,
+        6565897477,
+        6565897478,
+        6565897479,
+        6565897484,
+        6565903985,
+        6565903986,
+        6565903987,
+        6565903988,
+        6565903989,
+        6565897480,
+        6565897481,
+        6565897482,
+        6565897483,
+        6565903990
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "building": "yes",
+        "name": "Plaza El Corte Inglés"
+      }
+    },
+    {
+      "type": "way",
+      "id": 769482956,
+      "nodes": [
+        7182757705,
+        7182757713,
+        7182757708,
+        7182757707,
+        7182757706,
+        7182757705
+      ],
+      "tags": {
+        "amenity": "food_court",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3472256434,
+      "lat": 36.209393,
+      "lon": -5.4279341
+    },
+    {
+      "type": "node",
+      "id": 3472256435,
+      "lat": 36.2094123,
+      "lon": -5.4279434
+    },
+    {
+      "type": "node",
+      "id": 3472256436,
+      "lat": 36.2094179,
+      "lon": -5.4279266
+    },
+    {
+      "type": "node",
+      "id": 3472256439,
+      "lat": 36.2094472,
+      "lon": -5.42778
+    },
+    {
+      "type": "node",
+      "id": 3472256454,
+      "lat": 36.2095279,
+      "lon": -5.4278227
+    },
+    {
+      "type": "node",
+      "id": 3472256456,
+      "lat": 36.2095425,
+      "lon": -5.4279911
+    },
+    {
+      "type": "node",
+      "id": 3472256458,
+      "lat": 36.2095494,
+      "lon": -5.4280059
+    },
+    {
+      "type": "node",
+      "id": 3472256460,
+      "lat": 36.2095594,
+      "lon": -5.4277863
+    },
+    {
+      "type": "node",
+      "id": 3472256461,
+      "lat": 36.2095653,
+      "lon": -5.427795
+    },
+    {
+      "type": "node",
+      "id": 3472256462,
+      "lat": 36.2095653,
+      "lon": -5.4280167
+    },
+    {
+      "type": "node",
+      "id": 3472256467,
+      "lat": 36.2095892,
+      "lon": -5.4279449
+    },
+    {
+      "type": "node",
+      "id": 3472256471,
+      "lat": 36.2096034,
+      "lon": -5.4279526
+    },
+    {
+      "type": "node",
+      "id": 3472256472,
+      "lat": 36.2096044,
+      "lon": -5.4279306
+    },
+    {
+      "type": "node",
+      "id": 3472256473,
+      "lat": 36.2096052,
+      "lon": -5.4279459
+    },
+    {
+      "type": "node",
+      "id": 3472256474,
+      "lat": 36.2096056,
+      "lon": -5.4279366
+    },
+    {
+      "type": "node",
+      "id": 3472114244,
+      "lat": 36.212412,
+      "lon": -5.431048
+    },
+    {
+      "type": "node",
+      "id": 3472114245,
+      "lat": 36.2124331,
+      "lon": -5.4309861
+    },
+    {
+      "type": "node",
+      "id": 3472114247,
+      "lat": 36.2124734,
+      "lon": -5.4310069
+    },
+    {
+      "type": "node",
+      "id": 3472114248,
+      "lat": 36.2124779,
+      "lon": -5.4309941
+    },
+    {
+      "type": "node",
+      "id": 3472114249,
+      "lat": 36.2125026,
+      "lon": -5.4310962
+    },
+    {
+      "type": "node",
+      "id": 3472114250,
+      "lat": 36.212526,
+      "lon": -5.4310217
+    },
+    {
+      "type": "node",
+      "id": 3489381998,
+      "lat": 36.2027564,
+      "lon": -5.4201234
+    },
+    {
+      "type": "node",
+      "id": 3489381999,
+      "lat": 36.2027646,
+      "lon": -5.4201889
+    },
+    {
+      "type": "node",
+      "id": 3489382001,
+      "lat": 36.2027988,
+      "lon": -5.4204613
+    },
+    {
+      "type": "node",
+      "id": 3489382003,
+      "lat": 36.2029538,
+      "lon": -5.4200892
+    },
+    {
+      "type": "node",
+      "id": 3489382004,
+      "lat": 36.2029678,
+      "lon": -5.4201803
+    },
+    {
+      "type": "node",
+      "id": 3489382008,
+      "lat": 36.2029964,
+      "lon": -5.4204232
+    },
+    {
+      "type": "node",
+      "id": 3510744020,
+      "lat": 36.2102817,
+      "lon": -5.3881387
+    },
+    {
+      "type": "node",
+      "id": 3510744021,
+      "lat": 36.210282,
+      "lon": -5.388244
+    },
+    {
+      "type": "node",
+      "id": 3510744022,
+      "lat": 36.2102822,
+      "lon": -5.3883473
+    },
+    {
+      "type": "node",
+      "id": 3510744023,
+      "lat": 36.2102823,
+      "lon": -5.3883723
+    },
+    {
+      "type": "node",
+      "id": 3510744028,
+      "lat": 36.2103743,
+      "lon": -5.3881387
+    },
+    {
+      "type": "node",
+      "id": 3510744029,
+      "lat": 36.2103743,
+      "lon": -5.3883743
+    },
+    {
+      "type": "node",
+      "id": 3761889992,
+      "lat": 37.2175413,
+      "lon": -7.0988719
+    },
+    {
+      "type": "node",
+      "id": 3761903838,
+      "lat": 37.2175143,
+      "lon": -7.0986667
+    },
+    {
+      "type": "node",
+      "id": 3761906496,
+      "lat": 37.2175828,
+      "lon": -7.0986815
+    },
+    {
+      "type": "node",
+      "id": 3761906497,
+      "lat": 37.2176039,
+      "lon": -7.0987586
+    },
+    {
+      "type": "node",
+      "id": 3761908366,
+      "lat": 37.2175844,
+      "lon": -7.0988332
+    },
+    {
+      "type": "node",
+      "id": 3761908367,
+      "lat": 37.2174788,
+      "lon": -7.098853
+    },
+    {
+      "type": "node",
+      "id": 3761908368,
+      "lat": 37.2174443,
+      "lon": -7.0987913
+    },
+    {
+      "type": "node",
+      "id": 3761908369,
+      "lat": 37.2174555,
+      "lon": -7.0987546
+    },
+    {
+      "type": "node",
+      "id": 3761908370,
+      "lat": 37.2174585,
+      "lon": -7.0987131
+    },
+    {
+      "type": "node",
+      "id": 5440431626,
+      "lat": 38.8807832,
+      "lon": -6.9862363
+    },
+    {
+      "type": "node",
+      "id": 5440431627,
+      "lat": 38.8808743,
+      "lon": -6.9862273
+    },
+    {
+      "type": "node",
+      "id": 5440431628,
+      "lat": 38.8809585,
+      "lon": -6.9861818
+    },
+    {
+      "type": "node",
+      "id": 5440431632,
+      "lat": 38.8807341,
+      "lon": -6.9862206
+    },
+    {
+      "type": "node",
+      "id": 5440431625,
+      "lat": 38.8810865,
+      "lon": -6.985819
+    },
+    {
+      "type": "node",
+      "id": 5440431629,
+      "lat": 38.8810273,
+      "lon": -6.9861045
+    },
+    {
+      "type": "node",
+      "id": 5440431630,
+      "lat": 38.8810735,
+      "lon": -6.9860033
+    },
+    {
+      "type": "node",
+      "id": 5440431631,
+      "lat": 38.8810926,
+      "lon": -6.9858885
+    },
+    {
+      "type": "node",
+      "id": 5440431633,
+      "lat": 38.8810112,
+      "lon": -6.9858456
+    },
+    {
+      "type": "node",
+      "id": 5440431634,
+      "lat": 38.880908,
+      "lon": -6.9858517
+    },
+    {
+      "type": "node",
+      "id": 5440431635,
+      "lat": 38.8808162,
+      "lon": -6.9858341
+    },
+    {
+      "type": "node",
+      "id": 5440431687,
+      "lat": 38.8841544,
+      "lon": -6.9774363
+    },
+    {
+      "type": "node",
+      "id": 5440431688,
+      "lat": 38.8841709,
+      "lon": -6.9774879
+    },
+    {
+      "type": "node",
+      "id": 5440431689,
+      "lat": 38.8841994,
+      "lon": -6.97753
+    },
+    {
+      "type": "node",
+      "id": 5440431690,
+      "lat": 38.8842369,
+      "lon": -6.9775582
+    },
+    {
+      "type": "node",
+      "id": 5440431691,
+      "lat": 38.8842795,
+      "lon": -6.9775694
+    },
+    {
+      "type": "node",
+      "id": 5440431781,
+      "lat": 38.8842355,
+      "lon": -6.9779672
+    },
+    {
+      "type": "node",
+      "id": 5440431782,
+      "lat": 38.8842958,
+      "lon": -6.9778407
+    },
+    {
+      "type": "node",
+      "id": 5440431783,
+      "lat": 38.8843085,
+      "lon": -6.9777849
+    },
+    {
+      "type": "node",
+      "id": 5440431784,
+      "lat": 38.8842961,
+      "lon": -6.9775667
+    },
+    {
+      "type": "node",
+      "id": 5440431785,
+      "lat": 38.8840661,
+      "lon": -6.9774205
+    },
+    {
+      "type": "node",
+      "id": 5440431786,
+      "lat": 38.8840682,
+      "lon": -6.9776231
+    },
+    {
+      "type": "node",
+      "id": 5440431787,
+      "lat": 38.8840926,
+      "lon": -6.9778597
+    },
+    {
+      "type": "node",
+      "id": 5440431788,
+      "lat": 38.884154,
+      "lon": -6.9780392
+    },
+    {
+      "type": "node",
+      "id": 2310261465,
+      "lat": 42.8735994,
+      "lon": -8.5962188
+    },
+    {
+      "type": "node",
+      "id": 2310261470,
+      "lat": 42.8736423,
+      "lon": -8.5959091
+    },
+    {
+      "type": "node",
+      "id": 2310261478,
+      "lat": 42.8737114,
+      "lon": -8.5961696
+    },
+    {
+      "type": "node",
+      "id": 2310261479,
+      "lat": 42.8737134,
+      "lon": -8.5959809
+    },
+    {
+      "type": "node",
+      "id": 2310261483,
+      "lat": 42.8737221,
+      "lon": -8.5959264
+    },
+    {
+      "type": "node",
+      "id": 2310261489,
+      "lat": 42.8737407,
+      "lon": -8.5959915
+    },
+    {
+      "type": "node",
+      "id": 2310261490,
+      "lat": 42.8737455,
+      "lon": -8.5962361
+    },
+    {
+      "type": "node",
+      "id": 2310261494,
+      "lat": 42.8737621,
+      "lon": -8.5961829
+    },
+    {
+      "type": "node",
+      "id": 6565897476,
+      "lat": 36.521193,
+      "lon": -6.2767318
+    },
+    {
+      "type": "node",
+      "id": 6565897477,
+      "lat": 36.5212366,
+      "lon": -6.2766706
+    },
+    {
+      "type": "node",
+      "id": 6565897478,
+      "lat": 36.5212615,
+      "lon": -6.2765949
+    },
+    {
+      "type": "node",
+      "id": 6565897479,
+      "lat": 36.5212648,
+      "lon": -6.2765133
+    },
+    {
+      "type": "node",
+      "id": 6565897480,
+      "lat": 36.5209161,
+      "lon": -6.2763911
+    },
+    {
+      "type": "node",
+      "id": 6565897481,
+      "lat": 36.5208855,
+      "lon": -6.27646
+    },
+    {
+      "type": "node",
+      "id": 6565897482,
+      "lat": 36.5208742,
+      "lon": -6.2765373
+    },
+    {
+      "type": "node",
+      "id": 6565897483,
+      "lat": 36.5208832,
+      "lon": -6.2766152
+    },
+    {
+      "type": "node",
+      "id": 6565897484,
+      "lat": 36.5212463,
+      "lon": -6.2764348
+    },
+    {
+      "type": "node",
+      "id": 6565903985,
+      "lat": 36.521208,
+      "lon": -6.2763684
+    },
+    {
+      "type": "node",
+      "id": 6565903986,
+      "lat": 36.5211541,
+      "lon": -6.2763215
+    },
+    {
+      "type": "node",
+      "id": 6565903987,
+      "lat": 36.5210909,
+      "lon": -6.2762993
+    },
+    {
+      "type": "node",
+      "id": 6565903988,
+      "lat": 36.5210253,
+      "lon": -6.2763044
+    },
+    {
+      "type": "node",
+      "id": 6565903989,
+      "lat": 36.5209648,
+      "lon": -6.2763362
+    },
+    {
+      "type": "node",
+      "id": 6565903990,
+      "lat": 36.5209117,
+      "lon": -6.2766854
+    },
+    {
+      "type": "node",
+      "id": 6565903991,
+      "lat": 36.5209566,
+      "lon": -6.2767407
+    },
+    {
+      "type": "node",
+      "id": 6565903992,
+      "lat": 36.5210134,
+      "lon": -6.2767753
+    },
+    {
+      "type": "node",
+      "id": 6565903993,
+      "lat": 36.521076,
+      "lon": -6.2767856
+    },
+    {
+      "type": "node",
+      "id": 6565903994,
+      "lat": 36.5211381,
+      "lon": -6.2767706
+    },
+    {
+      "type": "node",
+      "id": 3530617104,
+      "lat": 37.3400402,
+      "lon": -6.0431604
+    },
+    {
+      "type": "node",
+      "id": 3530617109,
+      "lat": 37.3400917,
+      "lon": -6.0430678
+    },
+    {
+      "type": "node",
+      "id": 3530617111,
+      "lat": 37.3401166,
+      "lon": -6.0432275
+    },
+    {
+      "type": "node",
+      "id": 3530617119,
+      "lat": 37.3401681,
+      "lon": -6.0431349
+    },
+    {
+      "type": "node",
+      "id": 1278758898,
+      "lat": 37.2773577,
+      "lon": -5.9224863
+    },
+    {
+      "type": "node",
+      "id": 1278758899,
+      "lat": 37.2776545,
+      "lon": -5.9221885
+    },
+    {
+      "type": "node",
+      "id": 1278758901,
+      "lat": 37.277419,
+      "lon": -5.9225479
+    },
+    {
+      "type": "node",
+      "id": 1278758902,
+      "lat": 37.277581,
+      "lon": -5.922115
+    },
+    {
+      "type": "node",
+      "id": 1350261426,
+      "lat": 37.3875784,
+      "lon": -6.0019128
+    },
+    {
+      "type": "node",
+      "id": 1350261429,
+      "lat": 37.3874535,
+      "lon": -6.0020811
+    },
+    {
+      "type": "node",
+      "id": 1350261441,
+      "lat": 37.3876943,
+      "lon": -6.0023627
+    },
+    {
+      "type": "node",
+      "id": 1350261443,
+      "lat": 37.3878243,
+      "lon": -6.0021857
+    },
+    {
+      "type": "node",
+      "id": 5546162613,
+      "lat": 37.422058,
+      "lon": -5.9523793
+    },
+    {
+      "type": "node",
+      "id": 5546162614,
+      "lat": 37.4220787,
+      "lon": -5.9520471
+    },
+    {
+      "type": "node",
+      "id": 5546162615,
+      "lat": 37.421961,
+      "lon": -5.9520471
+    },
+    {
+      "type": "node",
+      "id": 5546162616,
+      "lat": 37.4219184,
+      "lon": -5.9524526
+    },
+    {
+      "type": "node",
+      "id": 5546162617,
+      "lat": 37.4220179,
+      "lon": -5.9524697
+    },
+    {
+      "type": "node",
+      "id": 5546162618,
+      "lat": 37.4220268,
+      "lon": -5.9523743
+    },
+    {
+      "type": "node",
+      "id": 6357090739,
+      "lat": 38.4202281,
+      "lon": -6.4134742
+    },
+    {
+      "type": "node",
+      "id": 6357090743,
+      "lat": 38.4202279,
+      "lon": -6.4134739
+    },
+    {
+      "type": "node",
+      "id": 6357090744,
+      "lat": 38.4200711,
+      "lon": -6.4136861
+    },
+    {
+      "type": "node",
+      "id": 6357090747,
+      "lat": 38.4201803,
+      "lon": -6.4137237
+    },
+    {
+      "type": "node",
+      "id": 6357090748,
+      "lat": 38.4202707,
+      "lon": -6.4135212
+    },
+    {
+      "type": "node",
+      "id": 5279362021,
+      "lat": 38.4248407,
+      "lon": -6.416265
+    },
+    {
+      "type": "node",
+      "id": 5279369339,
+      "lat": 38.4247935,
+      "lon": -6.416529
+    },
+    {
+      "type": "node",
+      "id": 5279369340,
+      "lat": 38.4247904,
+      "lon": -6.4165554
+    },
+    {
+      "type": "node",
+      "id": 5279369341,
+      "lat": 38.4248971,
+      "lon": -6.4165534
+    },
+    {
+      "type": "node",
+      "id": 6358615208,
+      "lat": 38.4267591,
+      "lon": -6.4174573
+    },
+    {
+      "type": "node",
+      "id": 6358615209,
+      "lat": 38.4267802,
+      "lon": -6.4174144
+    },
+    {
+      "type": "node",
+      "id": 6358615210,
+      "lat": 38.426871,
+      "lon": -6.4174835
+    },
+    {
+      "type": "node",
+      "id": 6358615211,
+      "lat": 38.4268516,
+      "lon": -6.4175257
+    },
+    {
+      "type": "node",
+      "id": 6358616344,
+      "lat": 38.4247958,
+      "lon": -6.4165188
+    },
+    {
+      "type": "node",
+      "id": 6358616350,
+      "lat": 38.4249757,
+      "lon": -6.4165393
+    },
+    {
+      "type": "node",
+      "id": 6358616351,
+      "lat": 38.4249689,
+      "lon": -6.4165708
+    },
+    {
+      "type": "node",
+      "id": 6358616352,
+      "lat": 38.4248239,
+      "lon": -6.4163938
+    },
+    {
+      "type": "node",
+      "id": 6358616353,
+      "lat": 38.4250088,
+      "lon": -6.4164703
+    },
+    {
+      "type": "node",
+      "id": 6358616354,
+      "lat": 38.4249935,
+      "lon": -6.4165413
+    },
+    {
+      "type": "node",
+      "id": 6358616355,
+      "lat": 38.4246547,
+      "lon": -6.4162027
+    },
+    {
+      "type": "node",
+      "id": 6358616357,
+      "lat": 38.424857,
+      "lon": -6.4161624
+    },
+    {
+      "type": "node",
+      "id": 6358616358,
+      "lat": 38.4246657,
+      "lon": -6.4161155
+    },
+    {
+      "type": "node",
+      "id": 6358616558,
+      "lat": 38.4243043,
+      "lon": -6.4132543
+    },
+    {
+      "type": "node",
+      "id": 6358616559,
+      "lat": 38.4243195,
+      "lon": -6.4132664
+    },
+    {
+      "type": "node",
+      "id": 6358616560,
+      "lat": 38.4243285,
+      "lon": -6.4132979
+    },
+    {
+      "type": "node",
+      "id": 6358616561,
+      "lat": 38.4241971,
+      "lon": -6.4137827
+    },
+    {
+      "type": "node",
+      "id": 6358616562,
+      "lat": 38.4242066,
+      "lon": -6.413257
+    },
+    {
+      "type": "node",
+      "id": 6358613967,
+      "lat": 38.4280287,
+      "lon": -6.4212854
+    },
+    {
+      "type": "node",
+      "id": 6358613968,
+      "lat": 38.4280609,
+      "lon": -6.4213264
+    },
+    {
+      "type": "node",
+      "id": 6358613969,
+      "lat": 38.4280861,
+      "lon": -6.4212949
+    },
+    {
+      "type": "node",
+      "id": 6358613970,
+      "lat": 38.4281433,
+      "lon": -6.4213378
+    },
+    {
+      "type": "node",
+      "id": 6358613971,
+      "lat": 38.428191,
+      "lon": -6.4211749
+    },
+    {
+      "type": "node",
+      "id": 6358613983,
+      "lat": 38.4281055,
+      "lon": -6.4211373
+    },
+    {
+      "type": "node",
+      "id": 6358615213,
+      "lat": 38.4273088,
+      "lon": -6.415571
+    },
+    {
+      "type": "node",
+      "id": 6358615214,
+      "lat": 38.4274034,
+      "lon": -6.4153189
+    },
+    {
+      "type": "node",
+      "id": 6358615215,
+      "lat": 38.4273606,
+      "lon": -6.4152928
+    },
+    {
+      "type": "node",
+      "id": 6358615216,
+      "lat": 38.4272661,
+      "lon": -6.4155449
+    },
+    {
+      "type": "node",
+      "id": 4586014091,
+      "lat": 38.954395,
+      "lon": -5.8637037
+    },
+    {
+      "type": "node",
+      "id": 4586014092,
+      "lat": 38.9543835,
+      "lon": -5.863268
+    },
+    {
+      "type": "node",
+      "id": 4586014093,
+      "lat": 38.9540677,
+      "lon": -5.8632962
+    },
+    {
+      "type": "node",
+      "id": 4586014094,
+      "lat": 38.9540727,
+      "lon": -5.8636492
+    },
+    {
+      "type": "node",
+      "id": 4702180105,
+      "lat": 38.9543477,
+      "lon": -5.8632712
+    },
+    {
+      "type": "node",
+      "id": 3917434836,
+      "lat": 37.9182219,
+      "lon": -3.0231804
+    },
+    {
+      "type": "node",
+      "id": 3917434837,
+      "lat": 37.9182286,
+      "lon": -3.0230456
+    },
+    {
+      "type": "node",
+      "id": 3917434839,
+      "lat": 37.9182622,
+      "lon": -3.0233614
+    },
+    {
+      "type": "node",
+      "id": 3917434843,
+      "lat": 37.9184028,
+      "lon": -3.023629
+    },
+    {
+      "type": "node",
+      "id": 3917434846,
+      "lat": 37.918604,
+      "lon": -3.0240373
+    },
+    {
+      "type": "node",
+      "id": 3917434847,
+      "lat": 37.9187009,
+      "lon": -3.023301
+    },
+    {
+      "type": "node",
+      "id": 3917434848,
+      "lat": 37.9187008,
+      "lon": -3.0242014
+    },
+    {
+      "type": "node",
+      "id": 3917434852,
+      "lat": 37.918826,
+      "lon": -3.0238164
+    },
+    {
+      "type": "node",
+      "id": 3917434853,
+      "lat": 37.9189154,
+      "lon": -3.0239494
+    },
+    {
+      "type": "node",
+      "id": 4209768234,
+      "lat": 37.9182328,
+      "lon": -3.0232639
+    },
+    {
+      "type": "node",
+      "id": 625684516,
+      "lat": 37.5975134,
+      "lon": -0.983297
+    },
+    {
+      "type": "node",
+      "id": 625684519,
+      "lat": 37.5977513,
+      "lon": -0.9833113
+    },
+    {
+      "type": "node",
+      "id": 625684816,
+      "lat": 37.5975291,
+      "lon": -0.9828804
+    },
+    {
+      "type": "node",
+      "id": 625684819,
+      "lat": 37.597767,
+      "lon": -0.9828947
+    },
+    {
+      "type": "node",
+      "id": 2344861113,
+      "lat": 37.6260234,
+      "lon": -0.9504059
+    },
+    {
+      "type": "node",
+      "id": 2344861119,
+      "lat": 37.625813,
+      "lon": -0.9506589
+    },
+    {
+      "type": "node",
+      "id": 2344861203,
+      "lat": 37.6262047,
+      "lon": -0.9511861
+    },
+    {
+      "type": "node",
+      "id": 2344861211,
+      "lat": 37.6264151,
+      "lon": -0.9509385
+    },
+    {
+      "type": "node",
+      "id": 7182757705,
+      "lat": 37.7698243,
+      "lon": -1.4974355
+    },
+    {
+      "type": "node",
+      "id": 7182757706,
+      "lat": 37.7697336,
+      "lon": -1.4977426
+    },
+    {
+      "type": "node",
+      "id": 7182757707,
+      "lat": 37.76967,
+      "lon": -1.4976244
+    },
+    {
+      "type": "node",
+      "id": 7182757708,
+      "lat": 37.7697362,
+      "lon": -1.4973261
+    },
+    {
+      "type": "node",
+      "id": 7182757713,
+      "lat": 37.7697728,
+      "lon": -1.4973346
+    },
+    {
+      "type": "node",
+      "id": 1634063568,
+      "lat": 38.0235281,
+      "lon": -1.1728884
+    },
+    {
+      "type": "node",
+      "id": 1634063601,
+      "lat": 38.023555,
+      "lon": -1.172784
+    },
+    {
+      "type": "node",
+      "id": 1634063604,
+      "lat": 38.0236478,
+      "lon": -1.1729321
+    },
+    {
+      "type": "node",
+      "id": 1634063608,
+      "lat": 38.0236733,
+      "lon": -1.1728258
+    },
+    {
+      "type": "node",
+      "id": 3010085807,
+      "lat": 38.2448148,
+      "lon": -0.5638992
+    },
+    {
+      "type": "node",
+      "id": 3010085818,
+      "lat": 38.2448585,
+      "lon": -0.5637903
+    },
+    {
+      "type": "node",
+      "id": 3010085821,
+      "lat": 38.2448706,
+      "lon": -0.5639359
+    },
+    {
+      "type": "node",
+      "id": 3010085826,
+      "lat": 38.2449134,
+      "lon": -0.563827
+    },
+    {
+      "type": "node",
+      "id": 3547897212,
+      "lat": 38.6084427,
+      "lon": -0.2715957
+    },
+    {
+      "type": "node",
+      "id": 3547897213,
+      "lat": 38.6084599,
+      "lon": -0.2714525
+    },
+    {
+      "type": "node",
+      "id": 3547897222,
+      "lat": 38.6085721,
+      "lon": -0.2716185
+    },
+    {
+      "type": "node",
+      "id": 3547897223,
+      "lat": 38.608595,
+      "lon": -0.2714855
+    },
+    {
+      "type": "node",
+      "id": 4092231355,
+      "lat": 38.6072025,
+      "lon": -0.2717455
+    },
+    {
+      "type": "node",
+      "id": 4092231356,
+      "lat": 38.6072067,
+      "lon": -0.2720137
+    },
+    {
+      "type": "node",
+      "id": 4092231357,
+      "lat": 38.6072088,
+      "lon": -0.2721505
+    },
+    {
+      "type": "node",
+      "id": 4092231360,
+      "lat": 38.6072648,
+      "lon": -0.2718608
+    },
+    {
+      "type": "node",
+      "id": 4092231362,
+      "lat": 38.6073167,
+      "lon": -0.2721458
+    },
+    {
+      "type": "node",
+      "id": 4092231365,
+      "lat": 38.6073194,
+      "lon": -0.2720088
+    },
+    {
+      "type": "node",
+      "id": 4092231379,
+      "lat": 38.6074472,
+      "lon": -0.2717361
+    },
+    {
+      "type": "node",
+      "id": 4092231380,
+      "lat": 38.6074493,
+      "lon": -0.2718555
+    },
+    {
+      "type": "node",
+      "id": 4092231382,
+      "lat": 38.6074519,
+      "lon": -0.272003
+    },
+    {
+      "type": "node",
+      "id": 4092231383,
+      "lat": 38.6074535,
+      "lon": -0.2721405
+    },
+    {
+      "type": "node",
+      "id": 1681560274,
+      "lat": 39.018118,
+      "lon": -0.1724729
+    },
+    {
+      "type": "node",
+      "id": 1681560289,
+      "lat": 39.0181832,
+      "lon": -0.1725191
+    },
+    {
+      "type": "node",
+      "id": 1681560292,
+      "lat": 39.0182022,
+      "lon": -0.1722763
+    },
+    {
+      "type": "node",
+      "id": 1681560297,
+      "lat": 39.0182674,
+      "lon": -0.1723226
+    },
+    {
+      "type": "node",
+      "id": 1681560320,
+      "lat": 39.0194385,
+      "lon": -0.1734984
+    },
+    {
+      "type": "node",
+      "id": 1681560328,
+      "lat": 39.0195142,
+      "lon": -0.1735534
+    },
+    {
+      "type": "node",
+      "id": 1681560332,
+      "lat": 39.0195284,
+      "lon": -0.1732932
+    },
+    {
+      "type": "node",
+      "id": 1681560344,
+      "lat": 39.0196042,
+      "lon": -0.1733483
+    },
+    {
+      "type": "node",
+      "id": 1681560352,
+      "lat": 39.020484,
+      "lon": -0.1741975
+    },
+    {
+      "type": "node",
+      "id": 1681560361,
+      "lat": 39.0205517,
+      "lon": -0.1742451
+    },
+    {
+      "type": "node",
+      "id": 1681560368,
+      "lat": 39.0205524,
+      "lon": -0.1740364
+    },
+    {
+      "type": "node",
+      "id": 1681560373,
+      "lat": 39.0206201,
+      "lon": -0.174084
+    },
+    {
+      "type": "node",
+      "id": 1412986469,
+      "lat": 40.0623494,
+      "lon": -5.929513
+    },
+    {
+      "type": "node",
+      "id": 1412986470,
+      "lat": 40.0623546,
+      "lon": -5.9294433
+    },
+    {
+      "type": "node",
+      "id": 1412986473,
+      "lat": 40.0623618,
+      "lon": -5.9295875
+    },
+    {
+      "type": "node",
+      "id": 1412986475,
+      "lat": 40.0623653,
+      "lon": -5.9295085
+    },
+    {
+      "type": "node",
+      "id": 1412986477,
+      "lat": 40.0623742,
+      "lon": -5.9295831
+    },
+    {
+      "type": "node",
+      "id": 1412986480,
+      "lat": 40.0623849,
+      "lon": -5.9296483
+    },
+    {
+      "type": "node",
+      "id": 1412986498,
+      "lat": 40.0624598,
+      "lon": -5.9294083
+    },
+    {
+      "type": "node",
+      "id": 1412986501,
+      "lat": 40.0624652,
+      "lon": -5.9295458
+    },
+    {
+      "type": "node",
+      "id": 1412986504,
+      "lat": 40.0624705,
+      "lon": -5.9294666
+    },
+    {
+      "type": "node",
+      "id": 1412986506,
+      "lat": 40.0624795,
+      "lon": -5.9296134
+    },
+    {
+      "type": "node",
+      "id": 1412986511,
+      "lat": 40.0625133,
+      "lon": -5.9294526
+    },
+    {
+      "type": "node",
+      "id": 1412986512,
+      "lat": 40.0625276,
+      "lon": -5.9295248
+    },
+    {
+      "type": "node",
+      "id": 1760665970,
+      "lat": 40.3573647,
+      "lon": -3.8178396
+    },
+    {
+      "type": "node",
+      "id": 1760665986,
+      "lat": 40.3575198,
+      "lon": -3.8180365
+    },
+    {
+      "type": "node",
+      "id": 4989561014,
+      "lat": 40.357556,
+      "lon": -3.8179874
+    },
+    {
+      "type": "node",
+      "id": 4989562316,
+      "lat": 40.3574011,
+      "lon": -3.8177907
+    },
+    {
+      "type": "node",
+      "id": 3393075098,
+      "lat": 40.4242354,
+      "lon": -3.7010314
+    },
+    {
+      "type": "node",
+      "id": 3393075099,
+      "lat": 40.4242256,
+      "lon": -3.7007495
+    },
+    {
+      "type": "node",
+      "id": 3393075100,
+      "lat": 40.4241218,
+      "lon": -3.7007427
+    },
+    {
+      "type": "node",
+      "id": 3393075101,
+      "lat": 40.4241302,
+      "lon": -3.7009711
+    },
+    {
+      "type": "node",
+      "id": 3393075102,
+      "lat": 40.4241811,
+      "lon": -3.7009678
+    },
+    {
+      "type": "node",
+      "id": 3393075103,
+      "lat": 40.4241831,
+      "lon": -3.7010319
+    },
+    {
+      "type": "node",
+      "id": 3461939368,
+      "lat": 40.4241999,
+      "lon": -3.7007489
+    },
+    {
+      "type": "node",
+      "id": 3840586024,
+      "lat": 40.4241286,
+      "lon": -3.700943
+    },
+    {
+      "type": "node",
+      "id": 3840586027,
+      "lat": 40.4241288,
+      "lon": -3.7009176
+    },
+    {
+      "type": "node",
+      "id": 3840586039,
+      "lat": 40.4242065,
+      "lon": -3.7010315
+    },
+    {
+      "type": "node",
+      "id": 1693350679,
+      "lat": 41.6707175,
+      "lon": -3.6916217
+    },
+    {
+      "type": "node",
+      "id": 1693350830,
+      "lat": 41.6707445,
+      "lon": -3.6916817
+    },
+    {
+      "type": "node",
+      "id": 1693350864,
+      "lat": 41.6707653,
+      "lon": -3.691665
+    },
+    {
+      "type": "node",
+      "id": 1693350914,
+      "lat": 41.6707774,
+      "lon": -3.6916919
+    },
+    {
+      "type": "node",
+      "id": 1693350923,
+      "lat": 41.67082,
+      "lon": -3.6915391
+    },
+    {
+      "type": "node",
+      "id": 1693350932,
+      "lat": 41.6708268,
+      "lon": -3.6916158
+    },
+    {
+      "type": "node",
+      "id": 1693351024,
+      "lat": 41.6708387,
+      "lon": -3.6916424
+    },
+    {
+      "type": "node",
+      "id": 1693351090,
+      "lat": 41.6708471,
+      "lon": -3.6915994
+    },
+    {
+      "type": "node",
+      "id": 3359363998,
+      "lat": 40.4025136,
+      "lon": -2.3150116
+    },
+    {
+      "type": "node",
+      "id": 3359364003,
+      "lat": 40.4025536,
+      "lon": -2.3149156
+    },
+    {
+      "type": "node",
+      "id": 3359364007,
+      "lat": 40.4025954,
+      "lon": -2.315071
+    },
+    {
+      "type": "node",
+      "id": 3359364010,
+      "lat": 40.402625,
+      "lon": -2.3149613
+    },
+    {
+      "type": "node",
+      "id": 6332864686,
+      "lat": 41.5162735,
+      "lon": -2.0138612
+    },
+    {
+      "type": "node",
+      "id": 6332864687,
+      "lat": 41.5163554,
+      "lon": -2.013834
+    },
+    {
+      "type": "node",
+      "id": 6332864688,
+      "lat": 41.5163273,
+      "lon": -2.0137313
+    },
+    {
+      "type": "node",
+      "id": 6332864689,
+      "lat": 41.5162742,
+      "lon": -2.0137511
+    },
+    {
+      "type": "node",
+      "id": 6332864690,
+      "lat": 41.5162641,
+      "lon": -2.0138178
+    },
+    {
+      "type": "node",
+      "id": 1771530517,
+      "lat": 41.3338722,
+      "lon": -1.6573607
+    },
+    {
+      "type": "node",
+      "id": 1771530519,
+      "lat": 41.3340327,
+      "lon": -1.6570187
+    },
+    {
+      "type": "node",
+      "id": 1771530537,
+      "lat": 41.3347709,
+      "lon": -1.6580233
+    },
+    {
+      "type": "node",
+      "id": 1771530538,
+      "lat": 41.3350517,
+      "lon": -1.6577454
+    },
+    {
+      "type": "node",
+      "id": 3666937220,
+      "lat": 43.0724166,
+      "lon": -2.2581725
+    },
+    {
+      "type": "node",
+      "id": 3666937233,
+      "lat": 43.0725286,
+      "lon": -2.2583306
+    },
+    {
+      "type": "node",
+      "id": 3666937234,
+      "lat": 43.0725327,
+      "lon": -2.2580185
+    },
+    {
+      "type": "node",
+      "id": 3666937260,
+      "lat": 43.0726446,
+      "lon": -2.2581765
+    },
+    {
+      "type": "node",
+      "id": 3964026306,
+      "lat": 42.1010984,
+      "lon": -0.6957379
+    },
+    {
+      "type": "node",
+      "id": 3964026307,
+      "lat": 42.1011092,
+      "lon": -0.6958502
+    },
+    {
+      "type": "node",
+      "id": 3964026311,
+      "lat": 42.1011333,
+      "lon": -0.6958344
+    },
+    {
+      "type": "node",
+      "id": 3964026312,
+      "lat": 42.1011344,
+      "lon": -0.6959199
+    },
+    {
+      "type": "node",
+      "id": 3964026315,
+      "lat": 42.1011584,
+      "lon": -0.6959041
+    },
+    {
+      "type": "node",
+      "id": 3964026316,
+      "lat": 42.1011937,
+      "lon": -0.6960015
+    },
+    {
+      "type": "node",
+      "id": 3964026319,
+      "lat": 42.1012459,
+      "lon": -0.6956409
+    },
+    {
+      "type": "node",
+      "id": 3964026320,
+      "lat": 42.1012689,
+      "lon": -0.6957045
+    },
+    {
+      "type": "node",
+      "id": 3964026322,
+      "lat": 42.1013173,
+      "lon": -0.6956727
+    },
+    {
+      "type": "node",
+      "id": 3964026324,
+      "lat": 42.1013415,
+      "lon": -0.6958235
+    },
+    {
+      "type": "node",
+      "id": 3964026325,
+      "lat": 42.1013652,
+      "lon": -0.6958888
+    },
+    {
+      "type": "node",
+      "id": 3964026326,
+      "lat": 42.101366,
+      "lon": -0.6958074
+    },
+    {
+      "type": "node",
+      "id": 3336805385,
+      "lat": 42.1705272,
+      "lon": -0.4519795
+    },
+    {
+      "type": "node",
+      "id": 3336805408,
+      "lat": 42.1705573,
+      "lon": -0.4521681
+    },
+    {
+      "type": "node",
+      "id": 3336805608,
+      "lat": 42.1707524,
+      "lon": -0.4519142
+    },
+    {
+      "type": "node",
+      "id": 3336805622,
+      "lat": 42.1707751,
+      "lon": -0.4520548
+    },
+    {
+      "type": "node",
+      "id": 3336805629,
+      "lat": 42.1707827,
+      "lon": -0.4521028
+    },
+    {
+      "type": "node",
+      "id": 3336805658,
+      "lat": 42.1708139,
+      "lon": -0.4518969
+    },
+    {
+      "type": "node",
+      "id": 3336805696,
+      "lat": 42.170848,
+      "lon": -0.4520349
+    },
+    {
+      "type": "node",
+      "id": 1537435722,
+      "lat": 42.6944955,
+      "lon": -0.1071867
+    },
+    {
+      "type": "node",
+      "id": 2924821134,
+      "lat": 42.6945334,
+      "lon": -0.1070882
+    },
+    {
+      "type": "node",
+      "id": 2924821136,
+      "lat": 42.6945784,
+      "lon": -0.1072456
+    },
+    {
+      "type": "node",
+      "id": 2924821138,
+      "lat": 42.6946162,
+      "lon": -0.1071472
+    },
+    {
+      "type": "node",
+      "id": 1083626384,
+      "lat": 43.3128404,
+      "lon": -8.3657296
+    },
+    {
+      "type": "node",
+      "id": 1083626618,
+      "lat": 43.3129643,
+      "lon": -8.3661585
+    },
+    {
+      "type": "node",
+      "id": 1083626693,
+      "lat": 43.3126355,
+      "lon": -8.365844
+    },
+    {
+      "type": "node",
+      "id": 1083626817,
+      "lat": 43.3127832,
+      "lon": -8.3662538
+    },
+    {
+      "type": "node",
+      "id": 3830581932,
+      "lat": 43.4468652,
+      "lon": -8.2616186
+    },
+    {
+      "type": "node",
+      "id": 5285703748,
+      "lat": 43.4468661,
+      "lon": -8.2616857
+    },
+    {
+      "type": "node",
+      "id": 5285703749,
+      "lat": 43.4469279,
+      "lon": -8.2616857
+    },
+    {
+      "type": "node",
+      "id": 5285703750,
+      "lat": 43.4468837,
+      "lon": -8.2616179
+    },
+    {
+      "type": "node",
+      "id": 1096337356,
+      "lat": 43.4811668,
+      "lon": -5.2887915
+    },
+    {
+      "type": "node",
+      "id": 1096337381,
+      "lat": 43.4808972,
+      "lon": -5.2892614
+    },
+    {
+      "type": "node",
+      "id": 1096337384,
+      "lat": 43.4809964,
+      "lon": -5.2893219
+    },
+    {
+      "type": "node",
+      "id": 1096337408,
+      "lat": 43.4811682,
+      "lon": -5.2894314
+    },
+    {
+      "type": "node",
+      "id": 1096337438,
+      "lat": 43.4809951,
+      "lon": -5.2893258
+    },
+    {
+      "type": "node",
+      "id": 1096337444,
+      "lat": 43.4810362,
+      "lon": -5.289198
+    },
+    {
+      "type": "node",
+      "id": 1096337453,
+      "lat": 43.480937,
+      "lon": -5.2891375
+    },
+    {
+      "type": "node",
+      "id": 1096337468,
+      "lat": 43.4813398,
+      "lon": -5.2888971
+    },
+    {
+      "type": "node",
+      "id": 1096337357,
+      "lat": 43.4829139,
+      "lon": -5.2834021
+    },
+    {
+      "type": "node",
+      "id": 1096337379,
+      "lat": 43.482799,
+      "lon": -5.2829799
+    },
+    {
+      "type": "node",
+      "id": 1096337410,
+      "lat": 43.4828582,
+      "lon": -5.2828148
+    },
+    {
+      "type": "node",
+      "id": 1096337427,
+      "lat": 43.4826133,
+      "lon": -5.2830759
+    },
+    {
+      "type": "node",
+      "id": 1096337439,
+      "lat": 43.4827462,
+      "lon": -5.2834888
+    },
+    {
+      "type": "node",
+      "id": 1096337450,
+      "lat": 43.4826313,
+      "lon": -5.2830665
+    },
+    {
+      "type": "node",
+      "id": 1096337471,
+      "lat": 43.4828903,
+      "lon": -5.2829327
+    },
+    {
+      "type": "node",
+      "id": 1096337507,
+      "lat": 43.4825812,
+      "lon": -5.282958
+    },
+    {
+      "type": "node",
+      "id": 671560409,
+      "lat": 43.3400161,
+      "lon": -3.0168787
+    },
+    {
+      "type": "node",
+      "id": 671560410,
+      "lat": 43.3398192,
+      "lon": -3.0165714
+    },
+    {
+      "type": "node",
+      "id": 671560411,
+      "lat": 43.3399238,
+      "lon": -3.0163649
+    },
+    {
+      "type": "node",
+      "id": 671560412,
+      "lat": 43.3398173,
+      "lon": -3.016132
+    },
+    {
+      "type": "node",
+      "id": 671560413,
+      "lat": 43.3396481,
+      "lon": -3.0159521
+    },
+    {
+      "type": "node",
+      "id": 671560415,
+      "lat": 43.3395897,
+      "lon": -3.0160189
+    },
+    {
+      "type": "node",
+      "id": 671560416,
+      "lat": 43.3395644,
+      "lon": -3.0157914
+    },
+    {
+      "type": "node",
+      "id": 671560417,
+      "lat": 43.3397825,
+      "lon": -3.0155396
+    },
+    {
+      "type": "node",
+      "id": 671560418,
+      "lat": 43.3398752,
+      "lon": -3.0156848
+    },
+    {
+      "type": "node",
+      "id": 671560420,
+      "lat": 43.3401943,
+      "lon": -3.0161403
+    },
+    {
+      "type": "node",
+      "id": 671560421,
+      "lat": 43.3401713,
+      "lon": -3.0161655
+    },
+    {
+      "type": "node",
+      "id": 671560422,
+      "lat": 43.3402493,
+      "lon": -3.0162988
+    },
+    {
+      "type": "node",
+      "id": 671560423,
+      "lat": 43.3399944,
+      "lon": -3.016598
+    },
+    {
+      "type": "node",
+      "id": 671560424,
+      "lat": 43.3401075,
+      "lon": -3.0167773
+    },
+    {
+      "type": "node",
+      "id": 1112159412,
+      "lat": 43.3398988,
+      "lon": -3.015665
+    },
+    {
+      "type": "node",
+      "id": 1654571895,
+      "lat": 43.3397096,
+      "lon": -3.0160022
+    },
+    {
+      "type": "node",
+      "id": 1654571900,
+      "lat": 43.3397648,
+      "lon": -3.0160687
+    },
+    {
+      "type": "node",
+      "id": 1654571901,
+      "lat": 43.3398629,
+      "lon": -3.016213
+    },
+    {
+      "type": "node",
+      "id": 1654571915,
+      "lat": 43.3398988,
+      "lon": -3.0162928
+    },
+    {
+      "type": "node",
+      "id": 1654571918,
+      "lat": 43.3399403,
+      "lon": -3.0164257
+    },
+    {
+      "type": "node",
+      "id": 2103300622,
+      "lat": 43.3645051,
+      "lon": -1.8156674
+    },
+    {
+      "type": "node",
+      "id": 2103300624,
+      "lat": 43.3645566,
+      "lon": -1.8155783
+    },
+    {
+      "type": "node",
+      "id": 2103300630,
+      "lat": 43.3647068,
+      "lon": -1.8159231
+    },
+    {
+      "type": "node",
+      "id": 2103300631,
+      "lat": 43.364728,
+      "lon": -1.8158856
+    },
+    {
+      "type": "node",
+      "id": 2103300633,
+      "lat": 43.3647546,
+      "lon": -1.8157732
+    },
+    {
+      "type": "node",
+      "id": 2103300635,
+      "lat": 43.36478,
+      "lon": -1.8157282
+    },
+    {
+      "type": "node",
+      "id": 2103300636,
+      "lat": 43.3648042,
+      "lon": -1.8160164
+    },
+    {
+      "type": "node",
+      "id": 2103300637,
+      "lat": 43.3648194,
+      "lon": -1.8156974
+    },
+    {
+      "type": "node",
+      "id": 2103300638,
+      "lat": 43.36482,
+      "lon": -1.8157249
+    },
+    {
+      "type": "node",
+      "id": 2103300639,
+      "lat": 43.3648236,
+      "lon": -1.8159839
+    },
+    {
+      "type": "node",
+      "id": 2103300641,
+      "lat": 43.3648945,
+      "lon": -1.8160464
+    },
+    {
+      "type": "node",
+      "id": 2103300656,
+      "lat": 43.3651038,
+      "lon": -1.8160363
+    },
+    {
+      "type": "node",
+      "id": 2103300657,
+      "lat": 43.3651058,
+      "lon": -1.8156666
+    },
+    {
+      "type": "node",
+      "id": 2103300658,
+      "lat": 43.36511,
+      "lon": -1.8157524
+    },
+    {
+      "type": "node",
+      "id": 2103300660,
+      "lat": 43.3651227,
+      "lon": -1.8157524
+    },
+    {
+      "type": "node",
+      "id": 2103300661,
+      "lat": 43.3651263,
+      "lon": -1.8158515
+    },
+    {
+      "type": "node",
+      "id": 2103300662,
+      "lat": 43.3651321,
+      "lon": -1.8160349
+    },
+    {
+      "type": "node",
+      "id": 5641363305,
+      "lat": 38.844018,
+      "lon": 0.1094985
+    },
+    {
+      "type": "node",
+      "id": 5641363306,
+      "lat": 38.8438884,
+      "lon": 0.1096989
+    },
+    {
+      "type": "node",
+      "id": 5641363313,
+      "lat": 38.8439762,
+      "lon": 0.1098031
+    },
+    {
+      "type": "node",
+      "id": 5641363314,
+      "lat": 38.8440745,
+      "lon": 0.1096679
+    },
+    {
+      "type": "node",
+      "id": 5641363318,
+      "lat": 38.8441191,
+      "lon": 0.1096276
+    },
+    {
+      "type": "node",
+      "id": 5641363319,
+      "lat": 38.844111,
+      "lon": 0.1096417
+    },
+    {
+      "type": "node",
+      "id": 5641363320,
+      "lat": 38.8441029,
+      "lon": 0.1096368
+    },
+    {
+      "type": "node",
+      "id": 1026398734,
+      "lat": 39.5850087,
+      "lon": 2.6500486
+    },
+    {
+      "type": "node",
+      "id": 1026398903,
+      "lat": 39.5850649,
+      "lon": 2.6503409
+    },
+    {
+      "type": "node",
+      "id": 1026398925,
+      "lat": 39.5850328,
+      "lon": 2.6501745
+    },
+    {
+      "type": "node",
+      "id": 1026398952,
+      "lat": 39.5851854,
+      "lon": 2.6503018
+    },
+    {
+      "type": "node",
+      "id": 1026398998,
+      "lat": 39.5850961,
+      "lon": 2.6498385
+    },
+    {
+      "type": "node",
+      "id": 1026399081,
+      "lat": 39.5849756,
+      "lon": 2.6498776
+    },
+    {
+      "type": "node",
+      "id": 4738793141,
+      "lat": 41.3478012,
+      "lon": 2.0774519
+    },
+    {
+      "type": "node",
+      "id": 4738793142,
+      "lat": 41.3477329,
+      "lon": 2.0772384
+    },
+    {
+      "type": "node",
+      "id": 4738793143,
+      "lat": 41.3476379,
+      "lon": 2.0771237
+    },
+    {
+      "type": "node",
+      "id": 4738793144,
+      "lat": 41.347534,
+      "lon": 2.0770644
+    },
+    {
+      "type": "node",
+      "id": 4738793145,
+      "lat": 41.3473559,
+      "lon": 2.0770446
+    },
+    {
+      "type": "node",
+      "id": 4738793146,
+      "lat": 41.3471719,
+      "lon": 2.0771672
+    },
+    {
+      "type": "node",
+      "id": 4738793147,
+      "lat": 41.3470561,
+      "lon": 2.077357
+    },
+    {
+      "type": "node",
+      "id": 4738793148,
+      "lat": 41.346973,
+      "lon": 2.0779146
+    },
+    {
+      "type": "node",
+      "id": 4738793149,
+      "lat": 41.3470412,
+      "lon": 2.0782269
+    },
+    {
+      "type": "node",
+      "id": 4738793150,
+      "lat": 41.347154,
+      "lon": 2.0784167
+    },
+    {
+      "type": "node",
+      "id": 4738793151,
+      "lat": 41.3473797,
+      "lon": 2.0785037
+    },
+    {
+      "type": "node",
+      "id": 4738793152,
+      "lat": 41.3475548,
+      "lon": 2.0784563
+    },
+    {
+      "type": "node",
+      "id": 4738793153,
+      "lat": 41.3476943,
+      "lon": 2.0782942
+    },
+    {
+      "type": "node",
+      "id": 4738793154,
+      "lat": 41.3477626,
+      "lon": 2.0780411
+    },
+    {
+      "type": "node",
+      "id": 4738793155,
+      "lat": 41.3478012,
+      "lon": 2.0778078
+    },
+    {
+      "type": "node",
+      "id": 6159688076,
+      "lat": 41.3472562,
+      "lon": 2.0784907
+    },
+    {
+      "type": "node",
+      "id": 1837996605,
+      "lat": 41.4833386,
+      "lon": 1.920633
+    },
+    {
+      "type": "node",
+      "id": 1837996607,
+      "lat": 41.4833386,
+      "lon": 1.9208202
+    },
+    {
+      "type": "node",
+      "id": 1837996609,
+      "lat": 41.4834179,
+      "lon": 1.9206065
+    },
+    {
+      "type": "node",
+      "id": 1837996611,
+      "lat": 41.4834484,
+      "lon": 1.9207755
+    },
+    {
+      "type": "node",
+      "id": 1806589277,
+      "lat": 41.3891665,
+      "lon": 2.1878827
+    },
+    {
+      "type": "node",
+      "id": 1806589279,
+      "lat": 41.3892193,
+      "lon": 2.1880771
+    },
+    {
+      "type": "node",
+      "id": 1806589281,
+      "lat": 41.3892569,
+      "lon": 2.1877641
+    },
+    {
+      "type": "node",
+      "id": 1806589296,
+      "lat": 41.3892654,
+      "lon": 2.1880167
+    },
+    {
+      "type": "node",
+      "id": 1806589304,
+      "lat": 41.3893288,
+      "lon": 2.1882255
+    },
+    {
+      "type": "node",
+      "id": 1806589309,
+      "lat": 41.3893636,
+      "lon": 2.1879087
+    },
+    {
+      "type": "node",
+      "id": 1806589311,
+      "lat": 41.3893649,
+      "lon": 2.1881782
+    },
+    {
+      "type": "node",
+      "id": 1806589313,
+      "lat": 41.38939,
+      "lon": 2.1878741
+    },
+    {
+      "type": "node",
+      "id": 1806589315,
+      "lat": 41.3894251,
+      "lon": 2.1882597
+    },
+    {
+      "type": "node",
+      "id": 1806589317,
+      "lat": 41.389462,
+      "lon": 2.1880262
+    },
+    {
+      "type": "node",
+      "id": 1806589319,
+      "lat": 41.3894825,
+      "lon": 2.1879995
+    },
+    {
+      "type": "node",
+      "id": 1806589320,
+      "lat": 41.3895314,
+      "lon": 2.1881203
+    },
+    {
+      "type": "node",
+      "id": 1995258277,
+      "lat": 41.526492,
+      "lon": 2.1668316
+    },
+    {
+      "type": "node",
+      "id": 1995258279,
+      "lat": 41.5266472,
+      "lon": 2.167128
+    },
+    {
+      "type": "node",
+      "id": 1995258280,
+      "lat": 41.5266879,
+      "lon": 2.1666486
+    },
+    {
+      "type": "node",
+      "id": 1995258284,
+      "lat": 41.5268431,
+      "lon": 2.166945
+    },
+    {
+      "type": "node",
+      "id": 3619828780,
+      "lat": 42.4352388,
+      "lon": 0.1359709
+    },
+    {
+      "type": "node",
+      "id": 3619828782,
+      "lat": 42.4352966,
+      "lon": 0.1359269
+    },
+    {
+      "type": "node",
+      "id": 3619828792,
+      "lat": 42.4353691,
+      "lon": 0.1362857
+    },
+    {
+      "type": "node",
+      "id": 3619829193,
+      "lat": 42.435376,
+      "lon": 0.1361187
+    },
+    {
+      "type": "node",
+      "id": 3619829195,
+      "lat": 42.4354285,
+      "lon": 0.1360788
+    },
+    {
+      "type": "node",
+      "id": 3619829196,
+      "lat": 42.4354795,
+      "lon": 0.1362018
+    },
+    {
+      "type": "node",
+      "id": 1140739270,
+      "lat": 42.5602844,
+      "lon": 0.5693193
+    },
+    {
+      "type": "node",
+      "id": 1140739271,
+      "lat": 42.5605845,
+      "lon": 0.5690533
+    },
+    {
+      "type": "node",
+      "id": 1140739272,
+      "lat": 42.560303,
+      "lon": 0.5690347
+    },
+    {
+      "type": "node",
+      "id": 1140739279,
+      "lat": 42.5605598,
+      "lon": 0.5692141
+    },
+    {
+      "type": "node",
+      "id": 1140739283,
+      "lat": 42.5604205,
+      "lon": 0.5693255
+    },
+    {
+      "type": "node",
+      "id": 3684020299,
+      "lat": 41.9576571,
+      "lon": 2.5239781
+    },
+    {
+      "type": "node",
+      "id": 3684020300,
+      "lat": 41.9578018,
+      "lon": 2.5238319
+    },
+    {
+      "type": "node",
+      "id": 3684020302,
+      "lat": 41.9578083,
+      "lon": 2.5242541
+    },
+    {
+      "type": "node",
+      "id": 3684020304,
+      "lat": 41.9578305,
+      "lon": 2.5242364
+    },
+    {
+      "type": "node",
+      "id": 3684020306,
+      "lat": 41.9578429,
+      "lon": 2.5242817
+    },
+    {
+      "type": "node",
+      "id": 3684020309,
+      "lat": 41.9578964,
+      "lon": 2.5241574
+    },
+    {
+      "type": "node",
+      "id": 3684020311,
+      "lat": 41.9579048,
+      "lon": 2.5241837
+    },
+    {
+      "type": "node",
+      "id": 3684020315,
+      "lat": 41.9579466,
+      "lon": 2.5241142
+    },
+    {
+      "type": "node",
+      "id": 5303417001,
+      "lat": 41.9577177,
+      "lon": 2.5238391
+    },
+    {
+      "type": "node",
+      "id": 5303417002,
+      "lat": 41.9576754,
+      "lon": 2.5238774
+    },
+    {
+      "type": "node",
+      "id": 5303417003,
+      "lat": 41.9577026,
+      "lon": 2.5239319
+    },
+    {
+      "type": "node",
+      "id": 5303417004,
+      "lat": 41.9577449,
+      "lon": 2.5238936
+    },
+    {
+      "type": "node",
+      "id": 5303417005,
+      "lat": 41.9578219,
+      "lon": 2.5242893
+    },
+    {
+      "type": "node",
+      "id": 2725777513,
+      "lat": 42.3511056,
+      "lon": 3.0662295
+    },
+    {
+      "type": "node",
+      "id": 2725777514,
+      "lat": 42.3511501,
+      "lon": 3.0660501
+    },
+    {
+      "type": "node",
+      "id": 2725777515,
+      "lat": 42.3511703,
+      "lon": 3.0662896
+    },
+    {
+      "type": "node",
+      "id": 2725777516,
+      "lat": 42.3511857,
+      "lon": 3.0662612
+    },
+    {
+      "type": "node",
+      "id": 2725777517,
+      "lat": 42.3512115,
+      "lon": 3.066271
+    },
+    {
+      "type": "node",
+      "id": 2725777518,
+      "lat": 42.3512228,
+      "lon": 3.0660895
+    },
+    {
+      "type": "node",
+      "id": 2725777519,
+      "lat": 42.3512342,
+      "lon": 3.0661888
+    },
+    {
+      "type": "node",
+      "id": 2725777520,
+      "lat": 42.3512414,
+      "lon": 3.0660447
+    },
+    {
+      "type": "node",
+      "id": 2725777521,
+      "lat": 42.3512697,
+      "lon": 3.06606
+    }
+  ]
+}

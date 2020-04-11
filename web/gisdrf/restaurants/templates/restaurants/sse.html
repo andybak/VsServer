@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col">
+                <h1>SSE with Mercure Hub</h1>
+                <h4>Getting server updates</h4>
+                <span>{{ mercure_hub_url }}</span>
+                <br><br>
+
+                {% for user in user_list %}
+                <div id="result">
+                    User: {{ user.username }} <br> Status: {{ user.status }}
+                </div>
+                {% endfor %}
+
+            </div>
+        </div>
+    </div>
+
+{% endblock content %}
+
+{% block scripts %}
+    <script>
+        if(typeof(EventSource) !== "undefined") {
+        var source = new EventSource("{{ mercure_hub_url }}");
+        source.onmessage = function(event) {
+            console.log(event);
+            document.getElementById("result").innerHTML += event.data + "<br>";
+        };
+        } else {
+        document.getElementById("result").innerHTML = "Sorry, your browser does not support server-sent events...";
+        }
+    </script>
+
+{% endblock scripts %}

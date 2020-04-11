@@ -1,0 +1,53 @@
+version: '3'
+
+volumes: 
+    web:
+    storage:
+        external: true
+
+services:
+    web:
+        restart: always
+        build: ./web
+        stdin_open: true
+        tty: true
+        ports: 
+            - "8000:8000"
+        depends_on:
+            - postgres
+            - redis
+        env_file: .env
+        volumes: 
+            - web:/data
+            - ./web:/data/web
+            - storage:/storage
+        # command: gunicorn ./gisdrf/gisdrf.wsgi
+        command: bash -c "python3 ./gisdrf/manage.py collectstatic --no-input && python3 ./gisdrf/manage.py makemigrations && python3 ./gisdrf/manage.py migrate && python3 ./gisdrf/manage.py runserver 0.0.0.0:8000"
+
+    nginx:
+        restart: always
+        build: ./nginx/
+        depends_on: 
+            - web
+        ports:
+            - "80:80"
+        volumes:
+            - web:/data
+            - ./web/gisdrf/static:/static
+        
+    postgres:
+        restart: always
+        build: ./postgres
+        volumes:
+            # - storage:/storage
+            - storage:/var/lib/postgresql/data
+        env_file:
+            - .env
+        expose: 
+            - "5432"
+
+    redis:
+        restart: always
+        image: redis:latest
+        ports: 
+            - "6379:6379"
