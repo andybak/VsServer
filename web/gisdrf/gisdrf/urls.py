@@ -11,8 +11,8 @@ urlpatterns = []
 
 urlpatterns += i18n_patterns(
     path('admin/', admin.site.urls),
-    path('api/', include('api.urls')),
-    path('', include('moliordemo.urls'), name="molior"),
+    # path('api/', include('api.urls')),
+    path('', include('vscapture.urls'), name="vscapture"),
 )
 
 if settings.DEBUG:
