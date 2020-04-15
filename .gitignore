@@ -6,3 +6,6 @@ env
 *.pyc
 *.vscode
 *.db
+.idea/*
+.project
+**/.DS_Store
