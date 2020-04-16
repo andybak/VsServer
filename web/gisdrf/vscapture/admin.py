@@ -12,3 +12,4 @@ class LogRowAdmin(admin.ModelAdmin):
         "peep", "mvExp", "compliance", "rr", "stIi", "stV5", "stAvl", "eegEntropy", "emgEntropy", "bsrEntropy", "bis",
         "bisBsr", "bisEmg", "bisSqi",
     ]
+    list_filter = ['name', 'timestamp']
