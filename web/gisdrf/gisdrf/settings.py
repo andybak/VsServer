@@ -18,9 +18,6 @@ ALLOWED_HOSTS = ['*']
 # For Django Debug Toolbar
 INTERNAL_IPS = ['*']
 
-# Google’s Geocoding API
-GOOGLE_API_KEY = os.environ['GOOGLE_API_KEY']
-
 
 # Application definition
 
