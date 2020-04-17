@@ -1,47 +1,32 @@
 import csv
+import json
 
 import dateutil.parser
 
 from django.template.response import TemplateResponse
 from django.views.decorators.csrf import csrf_exempt
 
-from .csv_mapping import csv_mapping
+from .mapping import mapping
 from .models import LogRow
 
 
 @csrf_exempt
 def index(request):
-
     if request.method == "POST":
-        body = request.body.decode("utf-8").splitlines()
-        capture_version = body[0]
-        device_name = body[1]
-        for row in csv.DictReader(body[2:], delimiter=","):
-            date = None
-            time = None
-            row_instance = LogRow(name=device_name)
-            for k, v in row.items():
-                print(k, v)
-                if k is None:
-                    continue
-                if k == "Date":
-                    date = v
-                elif k == "Time":
-                    time = v
-                    if date is not None and time is not None:
-                        pass
-                        row_instance.timestamp = dateutil.parser.parse(f'{date} {time}')
-                else:
-                    if v == "-":
-                        val = None
-                    elif v == "None":
-                        val = None
-                    else:
-                        val = v
-                    if val is not None:
-                        setattr(row_instance, csv_mapping[k.strip()], val)
-                    print(k, val, type(val))
-            row_instance.save()
+        json_data = json.loads(request.body)
+        row_instance = LogRow(name=json_data[0]['DeviceID'])
+        timestamp = json_data[0]['Timestamp'].replace("\\/", "-")
+        # TODO set a timezone
+        row_instance.timestamp = dateutil.parser.parse(timestamp)
+
+        for item in json_data:
+            key = item['PhysioID']
+            val = item['Value']
+            if val in ["None", "-", ""]: val = None
+
+            if val is not None:
+                setattr(row_instance, mapping[key.strip()], val)
+        row_instance.save()
 
     context = {}
 
