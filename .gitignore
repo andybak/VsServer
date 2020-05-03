@@ -9,3 +9,4 @@ env
 .idea/*
 .project
 **/.DS_Store
+/web/gisdrf/static/
