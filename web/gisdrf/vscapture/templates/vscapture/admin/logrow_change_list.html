@@ -1,0 +1,117 @@
+{% extends "admin/change_list.html" %}
+{% load static %}
+{% block extrahead %}
+
+    {{ block.super }}
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+
+    <style>
+
+        #chartWrapper {
+            width: 100%;
+            height: 300px;
+            margin-bottom: 20px;
+        }
+
+    </style>
+
+{% endblock %}
+
+{% block pretitle %}
+
+    <select id="deviceSelect">
+        <option value="all">All</option>
+        {% for device in available_devices %}
+            <option value="{{ device }}">{{ device }}</option>
+        {% endfor %}
+    </select>
+    <select id="timePeriodSelect">
+        <option value="all">All</option>
+        <option value="1">Last hour</option>
+        <option value="8">Last 8 hours</option>
+        <option value="24">Last 24 hours</option>
+    </select>
+
+    <div id="chartWrapper">
+        <canvas id="myChart"></canvas>
+    </div>
+
+    {{ block.super }}
+
+    <script>
+
+      function newDateTime(timestamp) {
+        return moment(timestamp);
+      }
+
+      var deviceSelect = document.getElementById("deviceSelect");
+      var timePeriodSelect = document.getElementById("timePeriodSelect");
+
+      deviceSelect.onchange = showChart;
+      timePeriodSelect.onchange = showChart;
+
+      showChart();
+
+
+
+      function showChart() {
+
+        const xhr = new XMLHttpRequest();
+        xhr.open('GET', '/chart_data/' + deviceSelect.value + '/' + timePeriodSelect.value + '/');
+        xhr.send();
+
+
+        xhr.onload = function () {
+          if (xhr.status === 200) {
+
+            var chartData = JSON.parse(xhr.response);
+
+            var baseOptions = {
+
+              type: 'line',
+
+              legend: {},
+
+              options: {
+                hover: {
+                  mode: 'dataset',
+                  intersect: false,
+                },
+                tooltips: {
+                  mode: 'x',
+                  intersect: true
+                },
+
+                responsive: true,
+                maintainAspectRatio: false,
+
+                scales: {
+                  yAxes: [{
+                    ticks: {
+                      beginAtZero: true,
+                      suggestedMax: 200
+                    },
+                    scaleLabel: {
+                      display: true,
+                      labelString: 'Value'
+                    }
+                  }],
+                }
+              }
+            };
+
+            var myChartOptions = JSON.parse(JSON.stringify(baseOptions));
+
+            myChartOptions.data = chartData;
+            var myChart = document.getElementById("myChart");
+            new Chart(myChart.getContext("2d"), myChartOptions);
+
+          }
+        }
+      }
+
+
+    </script>
+
+{% endblock %}

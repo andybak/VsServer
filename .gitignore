@@ -1,7 +1,6 @@
 venv/
 env
 *.env
-**/admin/
 *.sqlite3
 *.pyc
 *.vscode
