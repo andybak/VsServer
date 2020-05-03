@@ -1,18 +1,19 @@
 # BASE
 Django==3.0.5
+django-admin-numeric-filter==0.1.6
 djangorestframework==3.11.0
 djangorestframework-gis==0.15
 djangorestframework-simplejwt==4.4.0
 django-redis==4.11.0
 django_excel==0.0.10
 django_requestlogs==0.2.1
+ipython==7.13.0
 PyJWT==1.6.4
 redis==3.2.0
 celery==4.4.0
-psycopg2-binary==2.8.4
+psycopg2==2.8.5
 geocoder==1.38.1
 django-ipware==2.1.0
-django-chartjs==2.0.0
 requests==2.23.0
 python-dateutil==2.8.1
 
@@ -26,3 +27,4 @@ coverage==5.0.3
 pylint==2.4.4
 pylint-django==2.0.13
 pudb==2019.2
+Werkzeug==1.0.1

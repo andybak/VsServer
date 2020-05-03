@@ -4,6 +4,7 @@ volumes:
     web:
     vsstorage:
         external: true
+    ipython_data_local: {}
 
 services:
     web:
@@ -22,8 +23,10 @@ services:
             - web:/data
             - ./web:/data/web
             - vsstorage:/storage
+            - ipython_data_local:/root/.ipython/profile_default
         # command: gunicorn ./gisdrf/gisdrf.wsgi
-        command: bash -c "python3 ./gisdrf/manage.py collectstatic --no-input && python3 ./gisdrf/manage.py makemigrations && python3 ./gisdrf/manage.py migrate && python3 ./gisdrf/manage.py runserver 0.0.0.0:8000"
+        # command: bash -c "python3 ./gisdrf/manage.py collectstatic --no-input && python3 ./gisdrf/manage.py makemigrations && python3 ./gisdrf/manage.py migrate && python3 ./gisdrf/manage.py runserver 0.0.0.0:8000"
+        command: bash -c "python3 ./gisdrf/manage.py collectstatic --no-input && python3 ./gisdrf/manage.py runserver 0.0.0.0:8000"
 
     nginx:
         restart: always

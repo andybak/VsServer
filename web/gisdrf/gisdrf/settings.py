@@ -22,6 +22,9 @@ INTERNAL_IPS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
+
+    'admin_numeric_filter',  # Must go before admin
+
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -174,7 +177,6 @@ STATIC_ROOT = "./gisdrf/static"
 # Django REST Framework
 
 REST_FRAMEWORK = {
-    'EXCEPTION_HANDLER': 'requestlogs.views.exception_handler',
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
     'PAGE_SIZE': 10
 }
@@ -188,33 +190,3 @@ MERCURE_HUB_URL = os.getenv('MERCURE_HUB_URL', None)
 
 MERCURE_HUB_COOKIE_DOMAIN = os.getenv('MERCURE_HUB_COOKIE_DOMAIN', None)
 MERCURE_HUB_SECURE_COOKIE = os.getenv('MERCURE_HUB_SECURE_COOKIE', None)
-
-
-# Requestlogs
-LOGGING = {
-    'version': 1,
-    'disable_existing_loggers': False,
-    'handlers': {
-        'requestlogs_to_file': {
-            'level': 'INFO',
-            'class': 'logging.FileHandler',
-            'filename': '/tmp/requestlogs.log',
-        },
-    },
-    'loggers': {
-        'requestlogs': {
-            'handlers': ['requestlogs_to_file'],
-            'level': 'INFO',
-            'propagate': False,
-        },
-    },
-}
-
-REQUESTLOGS = {
-    'STORAGE_CLASS': 'requestlogs.storages.LoggingStorage',
-    'ENTRY_CLASS': 'requestlogs.entries.RequestLogEntry',
-    'SERIALIZER_CLASS': 'requestlogs.storages.RequestIdEntrySerializer',
-    'SECRETS': ['password', 'token'],
-    'ATTRIBUTE_NAME': '_requestlog',
-    'METHODS': ('GET', 'PUT', 'PATCH', 'POST', 'DELETE'),
-}
