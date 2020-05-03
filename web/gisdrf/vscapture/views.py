@@ -58,13 +58,18 @@ def chart_data(request, device, time_period):
         "pointBorderWidth": 2,
         "hoverRadius": 9,
     }
+
+    def takespread(sequence, num):
+        length = float(len(sequence))
+        for i in range(num):
+            yield sequence[int(ceil(i * length / num))]
     
+    dates = results.values_list('timestamp', flat=True)
     jsonData = {
         "labels": [
-            DateFormat(d).format('D j/m H:ia')
-            for d in results.values_list('timestamp', flat=True)
+            DateFormat(d).format('D j/m H:i:s')
+            for d in dates
         ],
-        # "labels": ["now-2", "now-1", "now"],
         "datasets": [],
     }
     
