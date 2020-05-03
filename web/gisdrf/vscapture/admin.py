@@ -16,7 +16,14 @@ class LogRowAdmin(admin.ModelAdmin):
 
     list_filter = ['name', 'timestamp']
 
-    class Media:
-        js = (
-            'app/js/myscript.js',
-        )
+    def changelist_view(self, request, extra_context=None):
+        """Add some extra info to the context for the chart UI"""
+        response = super(LogRowAdmin, self).changelist_view(request, extra_context)
+        extra_context = {
+            # A list of devices for rendering the device drop-down list
+            "available_devices": LogRow.objects.all().values_list("name").distinct()[0]
+        }
+        response.context_data.update(extra_context)
+        return response
+    
+    change_list_template = 'vscapture/admin/logrow_change_list.html'

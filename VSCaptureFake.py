@@ -3,6 +3,7 @@
 # python VSCaptureFake.py -port /dev/cu.Bluetooth-Incoming-Port -interval 15 -waveset 1 -export 2 -devid foobar -url http://localhost:8000/
 
 import json
+import random
 import sys
 import time
 from datetime import datetime
@@ -18,7 +19,7 @@ def get_data(**k):
         "DeviceID": k['devid'],
         "PhysioID": "ECG_HR",
         "Timestamp": timestamp,
-        "Value": "0"
+        "Value": random.randrange(0,100),
       },
       {
         "DeviceID": k['devid'],
@@ -42,7 +43,7 @@ def get_data(**k):
         "DeviceID": k['devid'],
         "PhysioID": "SpO2",
         "Timestamp": timestamp,
-        "Value": "97"
+        "Value": random.randrange(0,100),
       },
       {
         "DeviceID": k['devid'],
@@ -78,7 +79,7 @@ def get_data(**k):
         "DeviceID": k['devid'],
         "PhysioID": "O2_FI",
         "Timestamp": timestamp,
-        "Value": "98.5"
+        "Value": random.randrange(0,100),
       },
       {
         "DeviceID": k['devid'],
@@ -102,7 +103,7 @@ def get_data(**k):
         "DeviceID": k['devid'],
         "PhysioID": "T1_Temp",
         "Timestamp": timestamp,
-        "Value": "35.55"
+        "Value": random.randrange(0,100),
       },
       {
         "DeviceID": k['devid'],
@@ -120,19 +121,19 @@ def get_data(**k):
         "DeviceID": k['devid'],
         "PhysioID": "P1_Systolic",
         "Timestamp": timestamp,
-        "Value": "76"
+        "Value": random.randrange(0,100),
       },
       {
         "DeviceID": k['devid'],
         "PhysioID": "P1_Disatolic",
         "Timestamp": timestamp,
-        "Value": "76"
+        "Value": random.randrange(0,100),
       },
       {
         "DeviceID": k['devid'],
         "PhysioID": "P1_Mean",
         "Timestamp": timestamp,
-        "Value": "76"
+        "Value": random.randrange(0,100),
       },
       {
         "DeviceID": k['devid'],

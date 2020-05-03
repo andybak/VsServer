@@ -15,8 +15,11 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
-# For Django Debug Toolbar
-INTERNAL_IPS = ['*']
+def show_toolbar(request): return request.user.is_superuser and not request.is_ajax()
+
+DEBUG_TOOLBAR_CONFIG = {
+    'SHOW_TOOLBAR_CALLBACK': 'gisdrf.settings.show_toolbar',
+}
 
 
 # Application definition
@@ -42,15 +45,15 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
-    'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.contrib.auth.middleware.AuthenticationMiddleware',
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
+    'django.middleware.security.SecurityMiddleware',
     'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
-    'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'debug_toolbar.middleware.DebugToolbarMiddleware',
     'requestlogs.middleware.RequestLogsMiddleware',
     'requestlogs.middleware.RequestIdMiddleware',
 ]
