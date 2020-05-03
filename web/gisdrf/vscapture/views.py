@@ -58,11 +58,6 @@ def chart_data(request, device, time_period):
         "pointBorderWidth": 2,
         "hoverRadius": 9,
     }
-
-    def takespread(sequence, num):
-        length = float(len(sequence))
-        for i in range(num):
-            yield sequence[int(ceil(i * length / num))]
     
     dates = results.values_list('timestamp', flat=True)
     jsonData = {
