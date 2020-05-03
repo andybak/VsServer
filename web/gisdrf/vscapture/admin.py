@@ -21,7 +21,7 @@ class LogRowAdmin(admin.ModelAdmin):
         response = super(LogRowAdmin, self).changelist_view(request, extra_context)
         extra_context = {
             # A list of devices for rendering the device drop-down list
-            "available_devices": LogRow.objects.all().values_list("name").distinct()[0]
+            "available_devices": LogRow.objects.all().values_list("name", flat=True).distinct()
         }
         response.context_data.update(extra_context)
         return response
