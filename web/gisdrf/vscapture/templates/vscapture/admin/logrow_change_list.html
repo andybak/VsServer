@@ -4,7 +4,7 @@
 
     {{ block.super }}
 
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.bundle.min.js"></script>
 
     <style>
 
@@ -71,11 +71,29 @@
 
               type: 'line',
 
-              legend: {},
-
               options: {
+                legend: {
+                  display: true,
+                  position: 'left',
+                  align: 'center',
+                  labels: {
+                    usePointStyle: true,
+                  },
+                  onHover: function(e, legendItem){
+                     var index = legendItem.datasetIndex;
+                     var dataset = myChart.data.datasets[index];
+                     dataset.showLine = true;
+                     myChart.update();
+                  },
+                  onLeave: function(e, legendItem) {
+                    var index = legendItem.datasetIndex;
+                    var dataset = myChart.data.datasets[index];
+                    dataset.showLine = false;
+                    myChart.update();
+        					},
+                },
                 hover: {
-                  mode: 'dataset',
+                  mode: 'index',
                   intersect: false,
                 },
                 tooltips: {
