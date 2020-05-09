@@ -61,6 +61,16 @@
           type: 'line',
           data: data,
           options: {
+            elements: {
+                  line: {
+                      tension: 0
+                  }
+              },
+            plugins: {
+                filler: {
+                    propagate: false
+                }
+            },
             hover: {
               mode: 'index',
               intersect: false,
