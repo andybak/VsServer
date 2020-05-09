@@ -48,8 +48,8 @@ def chart_data(request, device, time_period):
         results = results.filter(name__iexact=device)
     
     if time_period != 'all':
-        time_start = timezone.now() - timedelta(hours=int(time_period))
-        time_end = timezone.now()
+        time_start = results.last().timestamp - timedelta(minutes=int(time_period))
+        time_end = results.last().timestamp
         results = results.filter(timestamp__lte=time_end, timestamp__gte=time_start)
     
     dataset_defaults = {
@@ -61,16 +61,13 @@ def chart_data(request, device, time_period):
     
     dates = results.values_list('timestamp', flat=True)
     jsonData = {
-        "labels": [
-            DateFormat(d).format('D j/m H:i:s')
-            for d in dates
-        ],
         "datasets": [],
     }
     
     jsonData["datasets"].append(dataset_defaults.copy())
+    field_name = 'p1Systolic'
     jsonData["datasets"][-1].update({
-        "data": list(results.values_list('p1Systolic', flat=True)),
+        "data": [{'x': row['timestamp'], 'y': row[field_name]} for row in results.values('timestamp', field_name)],
         "label": "Systolic BP",
         "borderColor": "#eb7d34",
         "pointStyle": 'triangle',
@@ -78,24 +75,27 @@ def chart_data(request, device, time_period):
     })
 
     jsonData["datasets"].append(dataset_defaults.copy())
+    field_name = 'p1Disatolic'
     jsonData["datasets"][-1].update({
-        "data": list(results.values_list('p1Disatolic', flat=True)),
+        "data": [{'x': row['timestamp'], 'y': row[field_name]} for row in results.values('timestamp', field_name)],
         "label": "Diastolic BP",
         "borderColor": "#3e95cd",
         "pointStyle": 'triangle',
     })
 
     jsonData["datasets"].append(dataset_defaults.copy())
+    field_name = 'p1Mean'
     jsonData["datasets"][-1].update({
-        "data": list(results.values_list('p1Mean', flat=True)),
+        "data": [{'x': row['timestamp'], 'y': row[field_name]} for row in results.values('timestamp', field_name)],
         "label": "Mean BP",
         "borderColor": "#8e5ea2",
         "pointStyle": 'crossRot',
     })
 
     jsonData["datasets"].append(dataset_defaults.copy())
+    field_name = 'p1Hr'
     jsonData["datasets"][-1].update({
-        "data": list(results.values_list('p1Hr', flat=True)),
+        "data": [{'x': row['timestamp'], 'y': row[field_name]} for row in results.values('timestamp', field_name)],
         "label": "HR",
         "borderColor": "#c45850",
         "radius": 3,
@@ -104,8 +104,9 @@ def chart_data(request, device, time_period):
     })
 
     jsonData["datasets"].append(dataset_defaults.copy())
+    field_name = 'spo2'
     jsonData["datasets"][-1].update({
-        "data": list(results.values_list('spo2', flat=True)),
+        "data": [{'x': row['timestamp'], 'y': row[field_name]} for row in results.values('timestamp', field_name)],
         "label": "SPO2",
         "borderColor": "#3cba9f",
         "pointStyle": 'star',

@@ -23,7 +23,8 @@ class LogRowAdmin(admin.ModelAdmin):
             # A list of devices for rendering the device drop-down list
             "available_devices": LogRow.objects.all().values_list("name", flat=True).distinct()
         }
-        response.context_data.update(extra_context)
+        if (hasattr(response, 'context_data')):
+            response.context_data.update(extra_context)
         return response
     
     change_list_template = 'vscapture/admin/logrow_change_list.html'

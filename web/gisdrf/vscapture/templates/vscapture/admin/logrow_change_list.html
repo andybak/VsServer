@@ -4,7 +4,7 @@
 
     {{ block.super }}
 
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.bundle.min.js"></script>
 
     <style>
 
@@ -21,20 +21,22 @@
 {% block pretitle %}
 
     <select id="deviceSelect">
-        <option value="all">All</option>
+{#        <option value="all">All</option>#}
         {% for device in available_devices %}
             <option value="{{ device }}">{{ device }}</option>
         {% endfor %}
     </select>
     <select id="timePeriodSelect">
-        <option value="all">All</option>
-        <option value="1">Last hour</option>
-        <option value="8">Last 8 hours</option>
-        <option value="24">Last 24 hours</option>
+        <option value="15">15 minutes back</option>
+        <option value="30">30 minutes back</option>
+        <option value="60">1 hour back</option>
+        <option value="120">2 hours back</option>
+        <option value="240">4 hours back</option>
+        <option value="480">8 hours back</option>
     </select>
 
     <div id="chartWrapper">
-        <canvas id="myChart"></canvas>
+        <canvas id="chartContainer"></canvas>
     </div>
 
     {{ block.super }}
@@ -48,74 +50,95 @@
       var deviceSelect = document.getElementById("deviceSelect");
       var timePeriodSelect = document.getElementById("timePeriodSelect");
 
-      deviceSelect.onchange = showChart;
-      timePeriodSelect.onchange = showChart;
+      deviceSelect.onchange = updateChart;
+      timePeriodSelect.onchange = updateChart;
+      updateChart();
+      var myChart = null;
 
-      showChart();
+      function createChart(data) {
+        var chartContainer = document.getElementById("chartContainer");
+        myChart = new Chart(chartContainer.getContext("2d"), {
+          type: 'line',
+          data: data,
+          options: {
+            hover: {
+              mode: 'index',
+              intersect: false,
+            },
+            tooltips: {
+              mode: 'x',
+              intersect: true
+            },
+            responsive: true,
+            maintainAspectRatio: false,
+            legend: {
+              display: true,
+              position: 'left',
+              align: 'center',
+              labels: {
+                usePointStyle: true,
+              },
+              onHover: function (e, legendItem) {
+                var index = legendItem.datasetIndex;
+                var dataset = myChart.data.datasets[index];
+                dataset.showLine = true;
+                myChart.update();
+              },
+              onLeave: function (e, legendItem) {
+                var index = legendItem.datasetIndex;
+                var dataset = myChart.data.datasets[index];
+                dataset.showLine = false;
+                myChart.update();
+              },
+            }, scales: {
+              yAxes: [{
+                ticks: {
+                  beginAtZero: true,
+                  suggestedMax: 200
+                },
+                scaleLabel: {
+                  display: true,
+                  labelString: 'Value'
+                }
+              }],
+              xAxes: [{
+                type: 'time',
+                distribution: 'linear',
+                time: {
+                  unit: 'minute',
+                  displayFormats: {minute: 'HH:mm'},
+                  tooltipFormat: 'll HH:mm'
+                },
+                ticks: {
+                  source: 'data',
+                },
+                scaleLabel: {
+                  display: true,
+                  labelString: 'Timestamp'
+                },
+              }],
+            }
+          }
+        });
 
+      }
 
-
-      function showChart() {
-
+      function updateChart() {
         const xhr = new XMLHttpRequest();
         xhr.open('GET', '/chart_data/' + deviceSelect.value + '/' + timePeriodSelect.value + '/');
         xhr.send();
-
-
         xhr.onload = function () {
           if (xhr.status === 200) {
-
-            var chartData = JSON.parse(xhr.response);
-
-            var baseOptions = {
-
-              type: 'line',
-
-              legend: {},
-
-              options: {
-                hover: {
-                  mode: 'dataset',
-                  intersect: false,
-                },
-                tooltips: {
-                  mode: 'x',
-                  intersect: true
-                },
-
-                responsive: true,
-                maintainAspectRatio: false,
-
-                scales: {
-                  yAxes: [{
-                    ticks: {
-                      beginAtZero: true,
-                      suggestedMax: 200
-                    },
-                    scaleLabel: {
-                      display: true,
-                      labelString: 'Value'
-                    }
-                  }],
-                  xAxes: [{
-                        ticks: {
-                            maxTicksLimit: 16
-                        }
-                    }],
-                }
-              }
-            };
-
-            var myChartOptions = JSON.parse(JSON.stringify(baseOptions));
-
-            myChartOptions.data = chartData;
-            var myChart = document.getElementById("myChart");
-            new Chart(myChart.getContext("2d"), myChartOptions);
-
+            var data = JSON.parse(xhr.response);
+            if (myChart === null) {
+              createChart(data);
+            } else {
+              myChart.data = data;
+              myChart.update();
+            }
           }
         }
       }
-
 
     </script>
 
