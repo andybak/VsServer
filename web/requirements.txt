@@ -8,7 +8,7 @@ django-redis==4.11.0
 django_excel==0.0.10
 django_requestlogs==0.2.1
 ipython==7.16.3
-PyJWT==1.6.4
+PyJWT==2.4.0
 redis==3.2.0
 celery==5.2.2
 psycopg2==2.8.5
