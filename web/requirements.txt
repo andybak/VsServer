@@ -1,5 +1,5 @@
 # BASE
-Django==3.1.13
+Django==3.1.14
 django-admin-numeric-filter==0.1.6
 djangorestframework==3.11.2
 djangorestframework-gis==0.15
